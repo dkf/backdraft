@@ -1,0 +1,967 @@
+<?xml version="1.0"?>
+<GCC_XML cvs_revision="1.121">
+  <Namespace id="_1" name="::" members="_3 _4 _5 _6 _7 _9 _10 _11 _12 _13 _14 _15 _16 _17 _18 _19 _20 _21 _22 _23 _24 _25 _26 _27 _28 _29 _30 _31 _32 _33 _34 _35 _36 _37 _38 _39 _40 _41 _42 _43 _44 _45 _46 _47 _48 _49 _50 _51 _52 _53 _54 _55 _56 _58 _59 _60 _61 _62 _63 _64 _65 _66 _67 _68 _69 _70 _71 _72 _73 _74 _75 _76 _77 _78 _79 _80 _81 _82 _83 _84 _85 _86 _87 _88 _90 _91 _92 _93 _94 _95 _96 _97 _98 _99 _100 _101 _102 _103 _104 _106 _107 _108 _109 _110 _111 _112 _113 _114 _115 _116 _117 _118 _119 _120 _121 _122 _123 _124 _125 _126 _127 _128 _129 _130 _131 _132 _133 _134 _135 _136 _137 _138 _139 _140 _141 _142 _143 _144 _145 _146 _147 _148 _149 _150 _151 _152 _153 _154 _155 _156 _157 _158 _159 _160 _161 _162 _163 _164 _165 _166 _167 _169 _170 _171 _172 _173 _174 _175 _176 _177 _178 _179 _180 _181 _182 _183 _184 _185 _186 _187 _188 _189 _190 _191 _192 _193 _194 _195 _196 _197 _198 _199 _200 _201 _202 _203 _204 _205 _206 _207 _208 _209 _211 _212 _213 _214 _215 _216 _217 _218 _219 _220 _221 _222 _223 _224 _225 _226 _227 _228 _229 _230 _231 _232 _234 _233 _235 _236 _237 _238 _239 _2 _240 _241 _242 _243 _244 _245 _246 _247 _248 _249 _250 _251 _252 _253 _254 _255 _256 _257 _258 _259 _260 _261 _262 _263 _264 _265 _266 _267 _268 _269 _270 _271 _272 _273 _274 _275 _276 _277 _278 _279 _280 _281 _282 _283 _284 _285 _286 _287 _288 _289 _290 _291 _292 _293 _294 _295 _296 _297 _298 _299 _300 _301 _302 _303 _304 _306 _307 _308 _309 _310 _311 _313 _314 _315 _316 _317 _318 _319 _320 _321 _322 _323 _324 _325 _326 _327 _328 _329 _330 _331 _332 _333 _334 _335 _336 _337 _338 _339 _340 _341 _342 _343 _344 _345 _346 _347 _348 _349 _350 _351 _352 _353 _354 _355 _356 _357 _358 _359 _360 _361 _362 _363 _364 _365 _366 _367 _368 _369 _370 _371 _372 _373 _374 _375 _376 _377 _378 _379 _380 _381 _382 _383 _384 _385 _386 _387 _388 _389 _390 _391 _392 _393 _394 _395 _396 _397 _398 _399 _400 _401 _402 _403 _404 _405 _406 " mangled="_Z2::" demangled="::"/>
+  <Namespace id="_2" name="std" context="_1" members="" mangled="_Z3std" demangled="std"/>
+  <Variable id="_3" name="cpp_sym_USB_ENDPOINT_TYPE_BULK" type="_105c" init="2" context="_1" location="f0:74" file="f0" line="74"/>
+  <Function id="_4" name="__builtin_nans" returns="_408" context="_1" location="f1:21" file="f1" line="21" extern="1" attributes="nothrow const nonnull">
+    <Argument name="str" type="_409" location="f1:21" file="f1" line="21"/>
+  </Function>
+  <Function id="_5" name="__builtin_acosf" returns="_410" context="_1" mangled="acosf" location="f1:25" file="f1" line="25" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:25" file="f1" line="25"/>
+  </Function>
+  <Function id="_6" name="__builtin_acosl" returns="_411" context="_1" mangled="acosl" location="f1:26" file="f1" line="26" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:26" file="f1" line="26"/>
+  </Function>
+  <Function id="_7" name="__builtin_va_arg_pack" returns="_412" context="_1" location="f1:145" file="f1" line="145" extern="1">
+    <Ellipsis/>
+  </Function>
+  <FundamentalType id="_8" name="long unsigned int" size="64" align="64"/>
+  <Typedef id="_9" name="uint_least64_t" type="_8" context="_1" location="f2:81" file="f2" line="81"/>
+  <Variable id="_10" name="cpp_sym__POSIX2_BC_DIM_MAX" type="_105c" init="2048" context="_1" location="f0:8" file="f0" line="8"/>
+  <Variable id="_11" name="cpp_sym_USB_TYPE_STANDARD" type="_105c" init="0" context="_1" location="f0:103" file="f0" line="103"/>
+  <Function id="_12" name="usb_device" returns="_413" context="_1" location="f3:326" file="f3" line="326" extern="1">
+    <Argument name="dev" type="_414" location="f3:326" file="f3" line="326"/>
+  </Function>
+  <Struct id="_13" name="usb_device" context="_1" mangled="10usb_device" demangled="usb_device" location="f3:238" file="f3" line="238" artificial="1" size="33472" align="64" members="_415 _416 _417 _418 _419 _420 _421 _422 _423 _424 " bases=""/>
+  <Variable id="_14" name="cpp_sym___GNU_LIBRARY__" type="_105c" init="6" context="_1" location="f0:7" file="f0" line="7"/>
+  <Variable id="_15" name="cpp_sym_USB_MAXINTERFACES" type="_105c" init="32" context="_1" location="f0:121" file="f0" line="121"/>
+  <Variable id="_16" name="cpp_sym_NAME_MAX" type="_105c" init="255" context="_1" location="f0:184" file="f0" line="184"/>
+  <Function id="_17" name="__builtin_log10" returns="_408" context="_1" mangled="log10" location="f1:63" file="f1" line="63" extern="1" attributes="nothrow">
+    <Argument type="_408" location="f1:63" file="f1" line="63"/>
+  </Function>
+  <Function id="_18" name="__builtin_popcountll" returns="_105" context="_1" location="f1:101" file="f1" line="101" extern="1" attributes="nothrow const">
+    <Argument type="_425" location="f1:101" file="f1" line="101"/>
+  </Function>
+  <Variable id="_19" name="cpp_sym__POSIX_SIGQUEUE_MAX" type="_105c" init="32" context="_1" location="f0:174" file="f0" line="174"/>
+  <Function id="_20" name="__builtin_clogf" returns="_426" context="_1" mangled="clogf" location="f1:111" file="f1" line="111" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_426" location="f1:111" file="f1" line="111"/>
+  </Function>
+  <Function id="_21" name="__builtin_clogl" returns="_427" context="_1" mangled="clogl" location="f1:113" file="f1" line="113" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_427" location="f1:113" file="f1" line="113"/>
+  </Function>
+  <Function id="_22" name="__builtin_cexpf" returns="_426" context="_1" mangled="cexpf" location="f1:108" file="f1" line="108" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_426" location="f1:108" file="f1" line="108"/>
+  </Function>
+  <Function id="_23" name="__builtin_cexpl" returns="_427" context="_1" mangled="cexpl" location="f1:110" file="f1" line="110" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_427" location="f1:110" file="f1" line="110"/>
+  </Function>
+  <Variable id="_24" name="cpp_sym___USE_XOPEN2K8" type="_105c" init="1" context="_1" location="f0:18" file="f0" line="18"/>
+  <Variable id="_25" name="cpp_sym_USB_DT_REPORT" type="_105c" init="34" context="_1" location="f0:145" file="f0" line="145"/>
+  <Function id="_26" name="__builtin_isless" returns="_412" context="_1" location="f1:141" file="f1" line="141" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Variable id="_27" name="cpp_sym__POSIX2_BC_STRING_MAX" type="_105c" init="1000" context="_1" location="f0:151" file="f0" line="151"/>
+  <Variable id="_28" name="cpp_sym_USB_REQ_GET_INTERFACE" type="_105c" init="10" context="_1" location="f0:3" file="f0" line="3"/>
+  <Variable id="_29" name="cpp_sym___WORDSIZE_COMPAT32" type="_105c" init="1" context="_1" location="f0:142" file="f0" line="142"/>
+  <Function id="_30" name="__builtin_isnormal" returns="_412" context="_1" location="f1:138" file="f1" line="138" extern="1">
+    <Ellipsis/>
+  </Function>
+  <Variable id="_31" name="cpp_sym_LONG_MIN" type="_57c" init="-0x08000000000000000l" context="_1" location="f0:5" file="f0" line="5"/>
+  <Variable id="_32" name="cpp_sym_PTHREAD_KEYS_MAX" type="_105c" init="1024" context="_1" location="f0:56" file="f0" line="56"/>
+  <Variable id="_33" name="cpp_sym_USB_DT_STRING" type="_105c" init="3" context="_1" location="f0:40" file="f0" line="40"/>
+  <Function id="_34" name="__builtin_asinf" returns="_410" context="_1" mangled="asinf" location="f1:28" file="f1" line="28" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:28" file="f1" line="28"/>
+  </Function>
+  <Function id="_35" name="__builtin_asinl" returns="_411" context="_1" mangled="asinl" location="f1:29" file="f1" line="29" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:29" file="f1" line="29"/>
+  </Function>
+  <Function id="_36" name="__builtin_popcount" returns="_105" context="_1" location="f1:99" file="f1" line="99" extern="1" attributes="nothrow const">
+    <Argument type="_105" location="f1:99" file="f1" line="99"/>
+  </Function>
+  <Variable id="_37" name="cpp_sym___USE_POSIX" type="_105c" init="1" context="_1" location="f0:49" file="f0" line="49"/>
+  <Variable id="_38" name="cpp_sym__LARGEFILE_SOURCE" type="_105c" init="1" context="_1" location="f0:94" file="f0" line="94"/>
+  <Function id="_39" name="__builtin_nansf" returns="_410" context="_1" location="f1:22" file="f1" line="22" extern="1" attributes="nothrow const nonnull">
+    <Argument name="str" type="_409" location="f1:22" file="f1" line="22"/>
+  </Function>
+  <Function id="_40" name="__builtin_nansl" returns="_411" context="_1" location="f1:23" file="f1" line="23" extern="1" attributes="nothrow const nonnull">
+    <Argument name="str" type="_409" location="f1:23" file="f1" line="23"/>
+  </Function>
+  <Function id="_41" name="__builtin_floorf" returns="_410" context="_1" mangled="floorf" location="f1:52" file="f1" line="52" extern="1" attributes="nothrow const">
+    <Argument type="_410" location="f1:52" file="f1" line="52"/>
+  </Function>
+  <Function id="_42" name="__builtin_floorl" returns="_411" context="_1" mangled="floorl" location="f1:53" file="f1" line="53" extern="1" attributes="nothrow const">
+    <Argument type="_411" location="f1:53" file="f1" line="53"/>
+  </Function>
+  <Function id="_43" name="__builtin_ctanf" returns="_426" context="_1" mangled="ctanf" location="f1:123" file="f1" line="123" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_426" location="f1:123" file="f1" line="123"/>
+  </Function>
+  <Variable id="_44" name="cpp_sym_XATTR_LIST_MAX" type="_105c" init="65536" context="_1" location="f0:93" file="f0" line="93"/>
+  <Function id="_45" name="__builtin_ctanh" returns="_429" context="_1" mangled="ctanh" location="f1:127" file="f1" line="127" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_429" location="f1:127" file="f1" line="127"/>
+  </Function>
+  <Function id="_46" name="__builtin_ctanl" returns="_427" context="_1" mangled="ctanl" location="f1:125" file="f1" line="125" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_427" location="f1:125" file="f1" line="125"/>
+  </Function>
+  <Variable id="_47" name="cpp_sym___USE_LARGEFILE" type="_105c" init="1" context="_1" location="f0:133" file="f0" line="133"/>
+  <Variable id="_48" name="cpp_sym_USB_TYPE_VENDOR" type="_105c" init="64" context="_1" location="f0:117" file="f0" line="117"/>
+  <Struct id="_49" name="usb_descriptor_header" context="_1" mangled="21usb_descriptor_header" demangled="usb_descriptor_header" location="f3:63" file="f3" line="63" artificial="1" attributes="packed" size="16" align="8" members="_430 _431 " bases=""/>
+  <Variable id="_50" name="cpp_sym_USB_DT_DEVICE" type="_105c" init="1" context="_1" location="f0:25" file="f0" line="25"/>
+  <Variable id="_51" name="cpp_sym__POSIX_PATH_MAX" type="_105c" init="256" context="_1" location="f0:119" file="f0" line="119"/>
+  <Variable id="_52" name="cpp_sym_USB_DT_ENDPOINT_SIZE" type="_105c" init="7" context="_1" location="f0:146" file="f0" line="146"/>
+  <Function id="_53" name="__builtin_carg" returns="_408" context="_1" mangled="carg" location="f1:94" file="f1" line="94" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_429" location="f1:94" file="f1" line="94"/>
+  </Function>
+  <Function id="_54" name="__builtin_clog" returns="_429" context="_1" mangled="clog" location="f1:112" file="f1" line="112" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_429" location="f1:112" file="f1" line="112"/>
+  </Function>
+  <Function id="_55" name="__builtin_logf" returns="_410" context="_1" mangled="logf" location="f1:66" file="f1" line="66" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:66" file="f1" line="66"/>
+  </Function>
+  <Function id="_56" name="__builtin_logl" returns="_411" context="_1" mangled="logl" location="f1:67" file="f1" line="67" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:67" file="f1" line="67"/>
+  </Function>
+  <FundamentalType id="_57" name="long int" size="64" align="64"/>
+  <Typedef id="_58" name="int_fast64_t" type="_57" context="_1" location="f2:95" file="f2" line="95"/>
+  <Function id="_59" name="__builtin_fabs" returns="_408" context="_1" mangled="fabs" location="f1:48" file="f1" line="48" extern="1" attributes="nothrow const">
+    <Argument type="_408" location="f1:48" file="f1" line="48"/>
+  </Function>
+  <Function id="_60" name="__builtin_expf" returns="_410" context="_1" mangled="expf" location="f1:46" file="f1" line="46" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:46" file="f1" line="46"/>
+  </Function>
+  <Function id="_61" name="__builtin_expl" returns="_411" context="_1" mangled="expl" location="f1:47" file="f1" line="47" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:47" file="f1" line="47"/>
+  </Function>
+  <Variable id="_62" name="cpp_sym__POSIX_ARG_MAX" type="_105c" init="4096" context="_1" location="f0:78" file="f0" line="78"/>
+  <Function id="_63" name="__builtin_isunordered" returns="_412" context="_1" location="f1:144" file="f1" line="144" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Typedef id="_64" name="int_fast32_t" type="_57" context="_1" location="f2:94" file="f2" line="94"/>
+  <Variable id="_65" name="cpp_sym__POSIX_CLOCKRES_MIN" type="_105c" init="20000000" context="_1" location="f0:70" file="f0" line="70"/>
+  <Variable id="_66" name="cpp_sym_PATH_MAX" type="_105c" init="4096" context="_1" location="f0:182" file="f0" line="182"/>
+  <Function id="_67" name="usb_set_debug" returns="_432" context="_1" location="f3:323" file="f3" line="323" extern="1">
+    <Argument name="level" type="_105" location="f3:323" file="f3" line="323"/>
+  </Function>
+  <Variable id="_68" name="cpp_sym_HOST_NAME_MAX" type="_105c" init="64" context="_1" location="f0:51" file="f0" line="51"/>
+  <Variable id="_69" name="cpp_sym__STDINT_H" type="_105c" init="1" context="_1" location="f0:118" file="f0" line="118"/>
+  <Function id="_70" name="__builtin_csqrt" returns="_429" context="_1" mangled="csqrt" location="f1:121" file="f1" line="121" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_429" location="f1:121" file="f1" line="121"/>
+  </Function>
+  <Function id="_71" name="__builtin_sin" returns="_408" context="_1" mangled="sin" location="f1:75" file="f1" line="75" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_408" location="f1:75" file="f1" line="75"/>
+  </Function>
+  <Function id="_72" name="usb_strerror" returns="_433" context="_1" location="f3:320" file="f3" line="320" extern="1"/>
+  <Function id="_73" name="__builtin_ldexpf" returns="_410" context="_1" mangled="ldexpf" location="f1:60" file="f1" line="60" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:60" file="f1" line="60"/>
+    <Argument type="_105" location="f1:60" file="f1" line="60"/>
+  </Function>
+  <Function id="_74" name="__builtin_ldexpl" returns="_411" context="_1" mangled="ldexpl" location="f1:61" file="f1" line="61" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:61" file="f1" line="61"/>
+    <Argument type="_105" location="f1:61" file="f1" line="61"/>
+  </Function>
+  <Function id="_75" name="usb_clear_halt" returns="_105" context="_1" location="f3:309" file="f3" line="309" extern="1">
+    <Argument name="dev" type="_414" location="f3:309" file="f3" line="309"/>
+    <Argument name="ep" type="_168" location="f3:309" file="f3" line="309"/>
+  </Function>
+  <Variable id="_76" name="cpp_sym___STDC_IEC_559_COMPLEX__" type="_105c" init="1" context="_1" location="f0:125" file="f0" line="125"/>
+  <Function id="_77" name="__builtin_islessequal" returns="_412" context="_1" location="f1:142" file="f1" line="142" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Struct id="_78" name="usb_config_descriptor" context="_1" mangled="21usb_config_descriptor" demangled="usb_config_descriptor" location="f3:140" file="f3" line="140" artificial="1" size="320" align="64" members="_434 _435 _436 _437 _438 _439 _440 _441 _442 _443 _444 " bases=""/>
+  <Struct id="_79" name="usb_interface_descriptor" context="_1" mangled="24usb_interface_descriptor" demangled="usb_interface_descriptor" location="f3:114" file="f3" line="114" artificial="1" size="320" align="64" members="_445 _446 _447 _448 _449 _450 _451 _452 _453 _454 _455 _456 " bases=""/>
+  <Function id="_80" name="__builtin_tanf" returns="_410" context="_1" mangled="tanf" location="f1:85" file="f1" line="85" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_410" location="f1:85" file="f1" line="85"/>
+  </Function>
+  <Function id="_81" name="__builtin_tanh" returns="_408" context="_1" mangled="tanh" location="f1:86" file="f1" line="86" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_408" location="f1:86" file="f1" line="86"/>
+  </Function>
+  <Function id="_82" name="__builtin_tanl" returns="_411" context="_1" mangled="tanl" location="f1:89" file="f1" line="89" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_411" location="f1:89" file="f1" line="89"/>
+  </Function>
+  <Function id="_83" name="__builtin_ceil" returns="_408" context="_1" mangled="ceil" location="f1:36" file="f1" line="36" extern="1" attributes="nothrow const">
+    <Argument type="_408" location="f1:36" file="f1" line="36"/>
+  </Function>
+  <Function id="_84" name="__builtin_fmodf" returns="_410" context="_1" mangled="fmodf" location="f1:54" file="f1" line="54" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:54" file="f1" line="54"/>
+    <Argument type="_410" location="f1:54" file="f1" line="54"/>
+  </Function>
+  <Function id="_85" name="__builtin_fmodl" returns="_411" context="_1" mangled="fmodl" location="f1:55" file="f1" line="55" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:55" file="f1" line="55"/>
+    <Argument type="_411" location="f1:55" file="f1" line="55"/>
+  </Function>
+  <Function id="_86" name="usb_control_msg" returns="_105" context="_1" location="f3:303" file="f3" line="303" extern="1">
+    <Argument name="dev" type="_414" location="f3:303" file="f3" line="303"/>
+    <Argument name="requesttype" type="_105" location="f3:303" file="f3" line="303"/>
+    <Argument name="request" type="_105" location="f3:303" file="f3" line="303"/>
+    <Argument name="value" type="_105" location="f3:303" file="f3" line="303"/>
+    <Argument name="index" type="_105" location="f3:303" file="f3" line="303"/>
+    <Argument name="bytes" type="_433" location="f3:303" file="f3" line="303"/>
+    <Argument name="size" type="_105" location="f3:303" file="f3" line="303"/>
+    <Argument name="timeout" type="_105" location="f3:303" file="f3" line="303"/>
+  </Function>
+  <Variable id="_87" name="cpp_sym___USE_XOPEN2K" type="_105c" init="1" context="_1" location="f0:81" file="f0" line="81"/>
+  <Variable id="_88" name="cpp_sym_USB_REQ_SYNCH_FRAME" type="_105c" init="12" context="_1" location="f0:157" file="f0" line="157"/>
+  <FundamentalType id="_89" name="signed char" size="8" align="8"/>
+  <Typedef id="_90" name="int_least8_t" type="_89" context="_1" location="f2:66" file="f2" line="66"/>
+  <Variable id="_91" name="cpp_sym__POSIX2_COLL_WEIGHTS_MAX" type="_105c" init="2" context="_1" location="f0:101" file="f0" line="101"/>
+  <Variable id="_92" name="cpp_sym__POSIX_SEM_VALUE_MAX" type="_105c" init="32767" context="_1" location="f0:28" file="f0" line="28"/>
+  <Variable id="_93" name="cpp_sym__POSIX_TZNAME_MAX" type="_105c" init="6" context="_1" location="f0:63" file="f0" line="63"/>
+  <Function id="_94" name="__builtin_return" returns="_432" context="_1" location="f1:13" file="f1" line="13" extern="1" attributes="nothrow noreturn">
+    <Argument name="RESULT" type="_457" location="f1:13" file="f1" line="13"/>
+  </Function>
+  <Variable id="_95" name="cpp_sym_MAX_CANON" type="_105c" init="255" context="_1" location="f0:15" file="f0" line="15"/>
+  <Variable id="_96" name="cpp_sym_USB_RECIP_DEVICE" type="_105c" init="0" context="_1" location="f0:45" file="f0" line="45"/>
+  <Function id="_97" name="__builtin_sqrt" returns="_408" context="_1" mangled="sqrt" location="f1:81" file="f1" line="81" extern="1" attributes="nothrow">
+    <Argument type="_408" location="f1:81" file="f1" line="81"/>
+  </Function>
+  <Function id="_98" name="__builtin_cpow" returns="_429" context="_1" mangled="cpow" location="f1:130" file="f1" line="130" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_429" location="f1:130" file="f1" line="130"/>
+    <Argument type="_429" location="f1:130" file="f1" line="130"/>
+  </Function>
+  <Variable id="_99" name="cpp_sym_USB_MAXCONFIG" type="_105c" init="8" context="_1" location="f0:68" file="f0" line="68"/>
+  <Variable id="_100" name="cpp_sym__POSIX_TIMER_MAX" type="_105c" init="32" context="_1" location="f0:58" file="f0" line="58"/>
+  <Variable id="_101" name="cpp_sym_USB_ERROR_BEGIN" type="_105c" init="500000" context="_1" location="f0:170" file="f0" line="170"/>
+  <Function id="_102" name="__builtin_coshf" returns="_410" context="_1" mangled="coshf" location="f1:42" file="f1" line="42" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:42" file="f1" line="42"/>
+  </Function>
+  <Function id="_103" name="__builtin_coshl" returns="_411" context="_1" mangled="coshl" location="f1:43" file="f1" line="43" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:43" file="f1" line="43"/>
+  </Function>
+  <Variable id="_104" name="cpp_sym__XOPEN_SOURCE_EXTENDED" type="_105c" init="1" context="_1" location="f0:152" file="f0" line="152"/>
+  <FundamentalType id="_105" name="int" size="32" align="32"/>
+  <Typedef id="_106" name="int_least32_t" type="_105" context="_1" location="f2:68" file="f2" line="68"/>
+  <Function id="_107" name="usb_interrupt_read" returns="_105" context="_1" location="f3:301" file="f3" line="301" extern="1">
+    <Argument name="dev" type="_414" location="f3:301" file="f3" line="301"/>
+    <Argument name="ep" type="_105" location="f3:301" file="f3" line="301"/>
+    <Argument name="bytes" type="_433" location="f3:301" file="f3" line="301"/>
+    <Argument name="size" type="_105" location="f3:301" file="f3" line="301"/>
+    <Argument name="timeout" type="_105" location="f3:301" file="f3" line="301"/>
+  </Function>
+  <Function id="_108" name="usb_get_driver_np" returns="_105" context="_1" location="f3:315" file="f3" line="315" extern="1">
+    <Argument name="dev" type="_414" location="f3:315" file="f3" line="315"/>
+    <Argument name="interface" type="_105" location="f3:315" file="f3" line="315"/>
+    <Argument name="name" type="_433" location="f3:315" file="f3" line="315"/>
+    <Argument name="namelen" type="_168" location="f3:315" file="f3" line="315"/>
+  </Function>
+  <Function id="_109" name="__builtin_cexp" returns="_429" context="_1" mangled="cexp" location="f1:109" file="f1" line="109" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_429" location="f1:109" file="f1" line="109"/>
+  </Function>
+  <Variable id="_110" name="cpp_sym_LONG_BIT" type="_105c" init="64" context="_1" location="f0:148" file="f0" line="148"/>
+  <Function id="_111" name="__builtin_atan2" returns="_408" context="_1" mangled="atan2" location="f1:31" file="f1" line="31" extern="1" attributes="nothrow">
+    <Argument type="_408" location="f1:31" file="f1" line="31"/>
+    <Argument type="_408" location="f1:31" file="f1" line="31"/>
+  </Function>
+  <Function id="_112" name="__builtin_memchr" returns="_457" context="_1" location="f1:12" file="f1" line="12" extern="1">
+    <Argument type="_458" location="f1:12" file="f1" line="12"/>
+    <Argument type="_105" location="f1:12" file="f1" line="12"/>
+    <Argument type="_168" location="f1:12" file="f1" line="12"/>
+  </Function>
+  <Function id="_113" name="usb_close" returns="_105" context="_1" location="f3:281" file="f3" line="281" extern="1">
+    <Argument name="dev" type="_414" location="f3:281" file="f3" line="281"/>
+  </Function>
+  <Function id="_114" name="__builtin_atanf" returns="_410" context="_1" mangled="atanf" location="f1:34" file="f1" line="34" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_410" location="f1:34" file="f1" line="34"/>
+  </Function>
+  <Function id="_115" name="__builtin_atanl" returns="_411" context="_1" mangled="atanl" location="f1:35" file="f1" line="35" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_411" location="f1:35" file="f1" line="35"/>
+  </Function>
+  <Function id="_116" name="__builtin_ctan" returns="_429" context="_1" mangled="ctan" location="f1:124" file="f1" line="124" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_429" location="f1:124" file="f1" line="124"/>
+  </Function>
+  <Function id="_117" name="__builtin_log" returns="_408" context="_1" mangled="log" location="f1:62" file="f1" line="62" extern="1" attributes="nothrow">
+    <Argument type="_408" location="f1:62" file="f1" line="62"/>
+  </Function>
+  <Variable id="_118" name="cpp_sym___STDC_ISO_10646__" type="_57c" init="200009l" context="_1" location="f0:123" file="f0" line="123"/>
+  <Variable id="_119" name="cpp_sym_USB_ENDPOINT_TYPE_ISOCHRONOUS" type="_105c" init="1" context="_1" location="f0:122" file="f0" line="122"/>
+  <Variable id="_120" name="cpp_sym__POSIX2_RE_DUP_MAX" type="_105c" init="255" context="_1" location="f0:194" file="f0" line="194"/>
+  <Variable id="_121" name="cpp_sym__POSIX_DELAYTIMER_MAX" type="_105c" init="32" context="_1" location="f0:126" file="f0" line="126"/>
+  <Variable id="_122" name="cpp_sym___USE_ISOC99" type="_105c" init="1" context="_1" location="f0:176" file="f0" line="176"/>
+  <Variable id="_123" name="cpp_sym_USB_DT_ENDPOINT" type="_105c" init="5" context="_1" location="f0:193" file="f0" line="193"/>
+  <Variable id="_124" name="cpp_sym_MQ_PRIO_MAX" type="_105c" init="32768" context="_1" location="f0:96" file="f0" line="96"/>
+  <Variable id="_125" name="cpp_sym___USE_BSD" type="_105c" init="1" context="_1" location="f0:90" file="f0" line="90"/>
+  <Function id="_126" name="usb_get_descriptor" returns="_105" context="_1" location="f3:291" file="f3" line="291" extern="1">
+    <Argument name="udev" type="_414" location="f3:291" file="f3" line="291"/>
+    <Argument name="type" type="_312" location="f3:291" file="f3" line="291"/>
+    <Argument name="index" type="_312" location="f3:291" file="f3" line="291"/>
+    <Argument name="buf" type="_457" location="f3:291" file="f3" line="291"/>
+    <Argument name="size" type="_105" location="f3:291" file="f3" line="291"/>
+  </Function>
+  <Function id="_127" name="__builtin_isfinite" returns="_412" context="_1" location="f1:135" file="f1" line="135" extern="1">
+    <Ellipsis/>
+  </Function>
+  <Variable id="_128" name="cpp_sym_USB_ENDPOINT_DIR_MASK" type="_105c" init="128" context="_1" location="f0:31" file="f0" line="31"/>
+  <Variable id="_129" name="cpp_sym_MB_LEN_MAX" type="_105c" init="16" context="_1" location="f0:79" file="f0" line="79"/>
+  <Function id="_130" name="__builtin_asin" returns="_408" context="_1" mangled="asin" location="f1:27" file="f1" line="27" extern="1" attributes="nothrow">
+    <Argument type="_408" location="f1:27" file="f1" line="27"/>
+  </Function>
+  <Function id="_131" name="__builtin_frexp" returns="_408" context="_1" mangled="frexp" location="f1:56" file="f1" line="56" extern="1" attributes="nothrow">
+    <Argument type="_408" location="f1:56" file="f1" line="56"/>
+    <Argument type="_459" location="f1:56" file="f1" line="56"/>
+  </Function>
+  <Variable id="_132" name="cpp_sym_USB_REQ_GET_CONFIGURATION" type="_105c" init="8" context="_1" location="f0:128" file="f0" line="128"/>
+  <Function id="_133" name="usb_detach_kernel_driver_np" returns="_105" context="_1" location="f3:317" file="f3" line="317" extern="1">
+    <Argument name="dev" type="_414" location="f3:317" file="f3" line="317"/>
+    <Argument name="interface" type="_105" location="f3:317" file="f3" line="317"/>
+  </Function>
+  <Variable id="_134" name="cpp_sym__POSIX_CHILD_MAX" type="_105c" init="25" context="_1" location="f0:100" file="f0" line="100"/>
+  <Function id="_135" name="__builtin_isgreaterequal" returns="_412" context="_1" location="f1:140" file="f1" line="140" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Variable id="_136" name="cpp_sym_RE_DUP_MAX" type="_105c" init="32767" context="_1" location="f0:160" file="f0" line="160"/>
+  <Variable id="_137" name="cpp_sym__POSIX_NGROUPS_MAX" type="_105c" init="8" context="_1" location="f0:138" file="f0" line="138"/>
+  <Variable id="_138" name="cpp_sym_USB_DT_INTERFACE_SIZE" type="_105c" init="9" context="_1" location="f0:34" file="f0" line="34"/>
+  <Typedef id="_139" name="uint_fast16_t" type="_8" context="_1" location="f2:106" file="f2" line="106"/>
+  <Variable id="_140" name="cpp_sym___USE_ISOC95" type="_105c" init="1" context="_1" location="f0:171" file="f0" line="171"/>
+  <Variable id="_141" name="cpp_sym_XATTR_NAME_MAX" type="_105c" init="255" context="_1" location="f0:167" file="f0" line="167"/>
+  <Function id="_142" name="usb_get_string_simple" returns="_105" context="_1" location="f3:285" file="f3" line="285" extern="1">
+    <Argument name="dev" type="_414" location="f3:285" file="f3" line="285"/>
+    <Argument name="index" type="_105" location="f3:285" file="f3" line="285"/>
+    <Argument name="buf" type="_433" location="f3:285" file="f3" line="285"/>
+    <Argument name="buflen" type="_271" location="f3:285" file="f3" line="285"/>
+  </Function>
+  <Function id="_143" name="usb_get_busses" returns="_460" context="_1" location="f3:327" file="f3" line="327" extern="1"/>
+  <Variable id="_144" name="cpp_sym___USE_XOPEN_EXTENDED" type="_105c" init="1" context="_1" location="f0:127" file="f0" line="127"/>
+  <Function id="_145" name="__builtin_log10f" returns="_410" context="_1" mangled="log10f" location="f1:64" file="f1" line="64" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:64" file="f1" line="64"/>
+  </Function>
+  <Function id="_146" name="__builtin_log10l" returns="_411" context="_1" mangled="log10l" location="f1:65" file="f1" line="65" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:65" file="f1" line="65"/>
+  </Function>
+  <Variable id="_147" name="cpp_sym__ISOC99_SOURCE" type="_105c" init="1" context="_1" location="f0:71" file="f0" line="71"/>
+  <Variable id="_148" name="cpp_sym__POSIX_STREAM_MAX" type="_105c" init="8" context="_1" location="f0:60" file="f0" line="60"/>
+  <Function id="_149" name="usb_resetep" returns="_105" context="_1" location="f3:308" file="f3" line="308" extern="1">
+    <Argument name="dev" type="_414" location="f3:308" file="f3" line="308"/>
+    <Argument name="ep" type="_168" location="f3:308" file="f3" line="308"/>
+  </Function>
+  <Function id="_150" name="__builtin_ctzl" returns="_105" context="_1" location="f1:97" file="f1" line="97" extern="1" attributes="nothrow const">
+    <Argument type="_57" location="f1:97" file="f1" line="97"/>
+  </Function>
+  <Variable id="_151" name="cpp_sym__POSIX_AIO_LISTIO_MAX" type="_105c" init="2" context="_1" location="f0:163" file="f0" line="163"/>
+  <Variable id="_152" name="usb_busses" type="_460" context="_1" location="f3:271" file="f3" line="271" extern="1"/>
+  <Function id="_153" name="__builtin_powif" returns="_410" context="_1" location="f1:73" file="f1" line="73" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_410" location="f1:73" file="f1" line="73"/>
+    <Argument type="_105" location="f1:73" file="f1" line="73"/>
+  </Function>
+  <Function id="_154" name="__builtin_powil" returns="_411" context="_1" location="f1:74" file="f1" line="74" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_411" location="f1:74" file="f1" line="74"/>
+    <Argument type="_105" location="f1:74" file="f1" line="74"/>
+  </Function>
+  <Function id="_155" name="__builtin_modff" returns="_410" context="_1" mangled="modff" location="f1:68" file="f1" line="68" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:68" file="f1" line="68"/>
+    <Argument type="_461" location="f1:68" file="f1" line="68"/>
+  </Function>
+  <Function id="_156" name="__builtin_exp" returns="_408" context="_1" mangled="exp" location="f1:45" file="f1" line="45" extern="1" attributes="nothrow">
+    <Argument type="_408" location="f1:45" file="f1" line="45"/>
+  </Function>
+  <Function id="_157" name="__builtin_modfl" returns="_411" context="_1" mangled="modfl" location="f1:69" file="f1" line="69" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:69" file="f1" line="69"/>
+    <Argument type="_462" location="f1:69" file="f1" line="69"/>
+  </Function>
+  <Variable id="_158" name="cpp_sym_USB_REQ_SET_FEATURE" type="_105c" init="3" context="_1" location="f0:99" file="f0" line="99"/>
+  <Variable id="_159" name="cpp_sym___STDC_IEC_559__" type="_105c" init="1" context="_1" location="f0:33" file="f0" line="33"/>
+  <Function id="_160" name="__builtin_prefetch" returns="_432" context="_1" location="f1:17" file="f1" line="17" extern="1" attributes="no vops">
+    <Argument name="ADDR" type="_458" location="f1:17" file="f1" line="17"/>
+    <Ellipsis/>
+  </Function>
+  <Variable id="_161" name="cpp_sym_SCHAR_MIN" type="_105c" init="-0x00000000000000080" context="_1" location="f0:54" file="f0" line="54"/>
+  <Variable id="_162" name="cpp_sym_USB_REQ_CLEAR_FEATURE" type="_105c" init="1" context="_1" location="f0:190" file="f0" line="190"/>
+  <Variable id="_163" name="cpp_sym__POSIX_C_SOURCE" type="_57c" init="200809l" context="_1" location="f0:95" file="f0" line="95"/>
+  <Function id="_164" name="usb_open" returns="_414" context="_1" location="f3:280" file="f3" line="280" extern="1">
+    <Argument name="dev" type="_413" location="f3:280" file="f3" line="280"/>
+  </Function>
+  <Function id="_165" name="__builtin_tan" returns="_408" context="_1" mangled="tan" location="f1:84" file="f1" line="84" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_408" location="f1:84" file="f1" line="84"/>
+  </Function>
+  <Function id="_166" name="__builtin_fabsf" returns="_410" context="_1" mangled="fabsf" location="f1:49" file="f1" line="49" extern="1" attributes="nothrow const">
+    <Argument type="_410" location="f1:49" file="f1" line="49"/>
+  </Function>
+  <Function id="_167" name="__builtin_fabsl" returns="_411" context="_1" mangled="fabsl" location="f1:50" file="f1" line="50" extern="1" attributes="nothrow const">
+    <Argument type="_411" location="f1:50" file="f1" line="50"/>
+  </Function>
+  <FundamentalType id="_168" name="unsigned int" size="32" align="32"/>
+  <Typedef id="_169" name="uint32_t" type="_168" context="_1" location="f2:52" file="f2" line="52"/>
+  <Variable id="_170" name="cpp_sym__BITS_POSIX2_LIM_H" type="_105c" init="1" context="_1" location="f0:86" file="f0" line="86"/>
+  <Variable id="_171" name="cpp_sym___USE_UNIX98" type="_105c" init="1" context="_1" location="f0:104" file="f0" line="104"/>
+  <Variable id="_172" name="cpp_sym_USHRT_MAX" type="_105c" init="65535" context="_1" location="f0:12" file="f0" line="12"/>
+  <Variable id="_173" name="cpp_sym__POSIX_QLIMIT" type="_105c" init="1" context="_1" location="f0:147" file="f0" line="147"/>
+  <Variable id="_174" name="cpp_sym_USB_RECIP_ENDPOINT" type="_105c" init="2" context="_1" location="f0:22" file="f0" line="22"/>
+  <Variable id="_175" name="cpp_sym___GLIBC__" type="_105c" init="2" context="_1" location="f0:173" file="f0" line="173"/>
+  <Variable id="_176" name="cpp_sym__POSIX2_BC_SCALE_MAX" type="_105c" init="99" context="_1" location="f0:178" file="f0" line="178"/>
+  <Typedef id="_177" name="uint_least32_t" type="_168" context="_1" location="f2:79" file="f2" line="79"/>
+  <Function id="_178" name="__builtin_inf" returns="_408" context="_1" location="f1:18" file="f1" line="18" extern="1" attributes="nothrow const"/>
+  <Variable id="_179" name="cpp_sym_PTHREAD_STACK_MIN" type="_105c" init="16384" context="_1" location="f0:57" file="f0" line="57"/>
+  <Function id="_180" name="usb_init" returns="_432" context="_1" location="f3:322" file="f3" line="322" extern="1"/>
+  <Namespace id="_181" name="__cxxabiv1" context="_1" members="" mangled="_Z10__cxxabiv1" demangled="__cxxabiv1"/>
+  <Variable id="_182" name="cpp_sym_USB_DT_HID" type="_105c" init="33" context="_1" location="f0:55" file="f0" line="55"/>
+  <Variable id="_183" name="cpp_sym_LIBUSB_HAS_DETACH_KERNEL_DRIVER_NP" type="_105c" init="1" context="_1" location="f0:69" file="f0" line="69"/>
+  <Variable id="_184" name="cpp_sym___USE_POSIX2" type="_105c" init="1" context="_1" location="f0:20" file="f0" line="20"/>
+  <Variable id="_185" name="cpp_sym_USB_MAXENDPOINTS" type="_105c" init="32" context="_1" location="f0:179" file="f0" line="179"/>
+  <Variable id="_186" name="cpp_sym___USE_XOPEN" type="_105c" init="1" context="_1" location="f0:162" file="f0" line="162"/>
+  <Variable id="_187" name="cpp_sym__POSIX_SYMLOOP_MAX" type="_105c" init="8" context="_1" location="f0:144" file="f0" line="144"/>
+  <Function id="_188" name="__builtin_frame_address" returns="_457" context="_1" location="f1:15" file="f1" line="15" extern="1">
+    <Argument name="LEVEL" type="_168" location="f1:15" file="f1" line="15"/>
+  </Function>
+  <Variable id="_189" name="cpp_sym__SYS_CDEFS_H" type="_105c" init="1" context="_1" location="f0:159" file="f0" line="159"/>
+  <Variable id="_190" name="cpp_sym__XOPEN_LIM_H" type="_105c" init="1" context="_1" location="f0:113" file="f0" line="113"/>
+  <Variable id="_191" name="cpp_sym___USE_EXTERN_INLINES_IN_LIBC" type="_105c" init="1" context="_1" location="f0:109" file="f0" line="109"/>
+  <Variable id="_192" name="cpp_sym_RTSIG_MAX" type="_105c" init="32" context="_1" location="f0:156" file="f0" line="156"/>
+  <Variable id="_193" name="cpp_sym__POSIX_LOGIN_NAME_MAX" type="_105c" init="9" context="_1" location="f0:124" file="f0" line="124"/>
+  <Function id="_194" name="__builtin_cabs" returns="_408" context="_1" mangled="cabs" location="f1:91" file="f1" line="91" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_429" location="f1:91" file="f1" line="91"/>
+  </Function>
+  <Variable id="_195" name="cpp_sym___USE_SVID" type="_105c" init="1" context="_1" location="f0:102" file="f0" line="102"/>
+  <Variable id="_196" name="cpp_sym_ULONG_LONG_MAX" type="_463c" init="-1ull" context="_1" location="f0:53" file="f0" line="53"/>
+  <Variable id="_197" name="cpp_sym_MAX_INPUT" type="_105c" init="255" context="_1" location="f0:17" file="f0" line="17"/>
+  <Variable id="_198" name="cpp_sym_USB_DT_HUB" type="_105c" init="41" context="_1" location="f0:165" file="f0" line="165"/>
+  <Variable id="_199" name="cpp_sym__POSIX_THREAD_DESTRUCTOR_ITERATIONS" type="_105c" init="4" context="_1" location="f0:47" file="f0" line="47"/>
+  <Variable id="_200" name="cpp_sym_USB_CLASS_PER_INTERFACE" type="_105c" init="0" context="_1" location="f0:166" file="f0" line="166"/>
+  <Variable id="_201" name="cpp_sym__POSIX_SSIZE_MAX" type="_105c" init="32767" context="_1" location="f0:88" file="f0" line="88"/>
+  <Variable id="_202" name="cpp_sym__POSIX2_CHARCLASS_NAME_MAX" type="_105c" init="14" context="_1" location="f0:43" file="f0" line="43"/>
+  <Function id="_203" name="__builtin_atan2f" returns="_410" context="_1" mangled="atan2f" location="f1:32" file="f1" line="32" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:32" file="f1" line="32"/>
+    <Argument type="_410" location="f1:32" file="f1" line="32"/>
+  </Function>
+  <Function id="_204" name="__builtin_atan2l" returns="_411" context="_1" mangled="atan2l" location="f1:33" file="f1" line="33" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:33" file="f1" line="33"/>
+    <Argument type="_411" location="f1:33" file="f1" line="33"/>
+  </Function>
+  <Variable id="_205" name="cpp_sym_AIO_PRIO_DELTA_MAX" type="_105c" init="20" context="_1" location="f0:155" file="f0" line="155"/>
+  <Typedef id="_206" name="int_fast8_t" type="_89" context="_1" location="f2:91" file="f2" line="91"/>
+  <Function id="_207" name="__builtin_isinf" returns="_412" context="_1" mangled="isinf" location="f1:136" file="f1" line="136" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Variable id="_208" name="cpp_sym_USB_REQ_SET_INTERFACE" type="_105c" init="11" context="_1" location="f0:172" file="f0" line="172"/>
+  <Variable id="_209" name="cpp_sym_USB_REQ_GET_STATUS" type="_105c" init="0" context="_1" location="f0:42" file="f0" line="42"/>
+  <FundamentalType id="_210" name="short int" size="16" align="16"/>
+  <Typedef id="_211" name="int16_t" type="_210" context="_1" location="f2:38" file="f2" line="38"/>
+  <Variable id="_212" name="cpp_sym_USB_ENDPOINT_TYPE_MASK" type="_105c" init="3" context="_1" location="f0:129" file="f0" line="129"/>
+  <Variable id="_213" name="cpp_sym_USB_REQ_SET_ADDRESS" type="_105c" init="5" context="_1" location="f0:191" file="f0" line="191"/>
+  <Typedef id="_214" name="int_fast16_t" type="_57" context="_1" location="f2:93" file="f2" line="93"/>
+  <Function id="_215" name="__builtin_ccoshf" returns="_426" context="_1" mangled="ccoshf" location="f1:105" file="f1" line="105" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_426" location="f1:105" file="f1" line="105"/>
+  </Function>
+  <Function id="_216" name="__builtin_ccoshl" returns="_427" context="_1" mangled="ccoshl" location="f1:107" file="f1" line="107" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_427" location="f1:107" file="f1" line="107"/>
+  </Function>
+  <Variable id="_217" name="cpp_sym_USB_CLASS_HID" type="_105c" init="3" context="_1" location="f0:82" file="f0" line="82"/>
+  <Typedef id="_218" name="ptrdiff_t" type="_57" context="_1" location="f4:149" file="f4" line="149"/>
+  <Function id="_219" name="__builtin_atan" returns="_408" context="_1" mangled="atan" location="f1:30" file="f1" line="30" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_408" location="f1:30" file="f1" line="30"/>
+  </Function>
+  <Function id="_220" name="__builtin_sinhf" returns="_410" context="_1" mangled="sinhf" location="f1:78" file="f1" line="78" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:78" file="f1" line="78"/>
+  </Function>
+  <Function id="_221" name="__builtin_sinhl" returns="_411" context="_1" mangled="sinhl" location="f1:79" file="f1" line="79" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:79" file="f1" line="79"/>
+  </Function>
+  <Function id="_222" name="__builtin_sqrtf" returns="_410" context="_1" mangled="sqrtf" location="f1:82" file="f1" line="82" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:82" file="f1" line="82"/>
+  </Function>
+  <Variable id="_223" name="cpp_sym_USB_DT_CONFIG_SIZE" type="_105c" init="9" context="_1" location="f0:98" file="f0" line="98"/>
+  <Function id="_224" name="__builtin_sqrtl" returns="_411" context="_1" mangled="sqrtl" location="f1:83" file="f1" line="83" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:83" file="f1" line="83"/>
+  </Function>
+  <Function id="_225" name="__builtin_frexpf" returns="_410" context="_1" mangled="frexpf" location="f1:57" file="f1" line="57" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:57" file="f1" line="57"/>
+    <Argument type="_459" location="f1:57" file="f1" line="57"/>
+  </Function>
+  <Function id="_226" name="__builtin_frexpl" returns="_411" context="_1" mangled="frexpl" location="f1:58" file="f1" line="58" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:58" file="f1" line="58"/>
+    <Argument type="_459" location="f1:58" file="f1" line="58"/>
+  </Function>
+  <Function id="_227" name="__builtin_cpowf" returns="_426" context="_1" mangled="cpowf" location="f1:129" file="f1" line="129" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_426" location="f1:129" file="f1" line="129"/>
+    <Argument type="_426" location="f1:129" file="f1" line="129"/>
+  </Function>
+  <Function id="_228" name="__builtin_cpowl" returns="_427" context="_1" mangled="cpowl" location="f1:131" file="f1" line="131" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_427" location="f1:131" file="f1" line="131"/>
+    <Argument type="_427" location="f1:131" file="f1" line="131"/>
+  </Function>
+  <Function id="_229" name="usb_bulk_read" returns="_105" context="_1" location="f3:297" file="f3" line="297" extern="1">
+    <Argument name="dev" type="_414" location="f3:297" file="f3" line="297"/>
+    <Argument name="ep" type="_105" location="f3:297" file="f3" line="297"/>
+    <Argument name="bytes" type="_433" location="f3:297" file="f3" line="297"/>
+    <Argument name="size" type="_105" location="f3:297" file="f3" line="297"/>
+    <Argument name="timeout" type="_105" location="f3:297" file="f3" line="297"/>
+  </Function>
+  <Variable id="_230" name="cpp_sym__POSIX2_BC_BASE_MAX" type="_105c" init="99" context="_1" location="f0:52" file="f0" line="52"/>
+  <Typedef id="_231" name="uint_fast64_t" type="_8" context="_1" location="f2:108" file="f2" line="108"/>
+  <Variable id="_232" name="cpp_sym___GLIBC_MINOR__" type="_105c" init="10" context="_1" location="f0:66" file="f0" line="66"/>
+  <Struct id="_233" name="usb_dev_handle" context="_1" incomplete="1" mangled="14usb_dev_handle" demangled="usb_dev_handle" location="f3:267" file="f3" line="267" artificial="1" align="8"/>
+  <Typedef id="_234" name="usb_dev_handle" type="_233" context="_1" location="f3:268" file="f3" line="268"/>
+  <Variable id="_235" name="cpp_sym__POSIX_THREAD_KEYS_MAX" type="_105c" init="128" context="_1" location="f0:87" file="f0" line="87"/>
+  <Variable id="_236" name="cpp_sym_USB_ENDPOINT_ADDRESS_MASK" type="_105c" init="15" context="_1" location="f0:108" file="f0" line="108"/>
+  <Variable id="_237" name="cpp_sym_USB_CLASS_HUB" type="_105c" init="9" context="_1" location="f0:114" file="f0" line="114"/>
+  <Struct id="_238" name="usb_ctrl_setup" context="_1" mangled="14usb_ctrl_setup" demangled="usb_ctrl_setup" location="f3:174" file="f3" line="174" artificial="1" attributes="packed" size="64" align="8" members="_465 _466 _467 _468 _469 " bases=""/>
+  <Function id="_239" name="usb_set_configuration" returns="_105" context="_1" location="f3:304" file="f3" line="304" extern="1">
+    <Argument name="dev" type="_414" location="f3:304" file="f3" line="304"/>
+    <Argument name="configuration" type="_105" location="f3:304" file="f3" line="304"/>
+  </Function>
+  <Variable id="_240" name="cpp_sym__POSIX_AIO_MAX" type="_105c" init="1" context="_1" location="f0:175" file="f0" line="175"/>
+  <Variable id="_241" name="cpp_sym___USE_POSIX199506" type="_105c" init="1" context="_1" location="f0:131" file="f0" line="131"/>
+  <Variable id="_242" name="cpp_sym___USE_LARGEFILE64" type="_105c" init="1" context="_1" location="f0:10" file="f0" line="10"/>
+  <Variable id="_243" name="cpp_sym_XATTR_SIZE_MAX" type="_105c" init="65536" context="_1" location="f0:14" file="f0" line="14"/>
+  <Variable id="_244" name="cpp_sym___USE_EXTERN_INLINES" type="_105c" init="1" context="_1" location="f0:134" file="f0" line="134"/>
+  <Variable id="_245" name="cpp_sym_USB_DT_ENDPOINT_AUDIO_SIZE" type="_105c" init="9" context="_1" location="f0:6" file="f0" line="6"/>
+  <Function id="_246" name="usb_find_busses" returns="_105" context="_1" location="f3:324" file="f3" line="324" extern="1"/>
+  <Function id="_247" name="__builtin_tanhf" returns="_410" context="_1" mangled="tanhf" location="f1:87" file="f1" line="87" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_410" location="f1:87" file="f1" line="87"/>
+  </Function>
+  <Function id="_248" name="__builtin_tanhl" returns="_411" context="_1" mangled="tanhl" location="f1:88" file="f1" line="88" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_411" location="f1:88" file="f1" line="88"/>
+  </Function>
+  <Function id="_249" name="__builtin_cabsf" returns="_410" context="_1" mangled="cabsf" location="f1:90" file="f1" line="90" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_426" location="f1:90" file="f1" line="90"/>
+  </Function>
+  <Function id="_250" name="__builtin_cabsl" returns="_411" context="_1" mangled="cabsl" location="f1:92" file="f1" line="92" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_427" location="f1:92" file="f1" line="92"/>
+  </Function>
+  <Typedef id="_251" name="int_least16_t" type="_210" context="_1" location="f2:67" file="f2" line="67"/>
+  <Function id="_252" name="__builtin_powf" returns="_410" context="_1" mangled="powf" location="f1:70" file="f1" line="70" extern="1" attributes="nothrow">
+    <Argument type="_410" location="f1:70" file="f1" line="70"/>
+    <Argument type="_410" location="f1:70" file="f1" line="70"/>
+  </Function>
+  <Function id="_253" name="__builtin_powi" returns="_408" context="_1" location="f1:72" file="f1" line="72" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_408" location="f1:72" file="f1" line="72"/>
+    <Argument type="_105" location="f1:72" file="f1" line="72"/>
+  </Function>
+  <Function id="_254" name="__builtin_powl" returns="_411" context="_1" mangled="powl" location="f1:71" file="f1" line="71" extern="1" attributes="nothrow">
+    <Argument type="_411" location="f1:71" file="f1" line="71"/>
+    <Argument type="_411" location="f1:71" file="f1" line="71"/>
+  </Function>
+  <Struct id="_255" name="usb_interface" context="_1" mangled="13usb_interface" demangled="usb_interface" location="f3:132" file="f3" line="132" artificial="1" size="128" align="64" members="_470 _471 " bases=""/>
+  <Variable id="_256" name="cpp_sym_SEM_VALUE_MAX" type="_105c" init="2147483647" context="_1" location="f0:132" file="f0" line="132"/>
+  <Variable id="_257" name="cpp_sym___USE_GNU" type="_105c" init="1" context="_1" location="f0:89" file="f0" line="89"/>
+  <Variable id="_258" name="cpp_sym_USB_DT_CONFIG" type="_105c" init="2" context="_1" location="f0:73" file="f0" line="73"/>
+  <Variable id="_259" name="cpp_sym_USB_ENDPOINT_IN" type="_105c" init="128" context="_1" location="f0:77" file="f0" line="77"/>
+  <Variable id="_260" name="cpp_sym_LIBUSB_HAS_GET_DRIVER_NP" type="_105c" init="1" context="_1" location="f0:140" file="f0" line="140"/>
+  <Typedef id="_261" name="uintptr_t" type="_8" context="_1" location="f2:123" file="f2" line="123"/>
+  <Struct id="_262" name="usb_string_descriptor" context="_1" mangled="21usb_string_descriptor" demangled="usb_string_descriptor" location="f3:69" file="f3" line="69" artificial="1" attributes="packed" size="32" align="8" members="_472 _473 _474 " bases=""/>
+  <Variable id="_263" name="cpp_sym_IOV_MAX" type="_105c" init="1024" context="_1" location="f0:26" file="f0" line="26"/>
+  <Variable id="_264" name="cpp_sym__POSIX_RE_DUP_MAX" type="_105c" init="255" context="_1" location="f0:154" file="f0" line="154"/>
+  <Variable id="_265" name="cpp_sym_USB_RECIP_INTERFACE" type="_105c" init="1" context="_1" location="f0:59" file="f0" line="59"/>
+  <Function id="_266" name="usb_claim_interface" returns="_105" context="_1" location="f3:305" file="f3" line="305" extern="1">
+    <Argument name="dev" type="_414" location="f3:305" file="f3" line="305"/>
+    <Argument name="interface" type="_105" location="f3:305" file="f3" line="305"/>
+  </Function>
+  <Variable id="_267" name="cpp_sym_USB_CLASS_COMM" type="_105c" init="2" context="_1" location="f0:92" file="f0" line="92"/>
+  <Function id="_268" name="__builtin_ccos" returns="_429" context="_1" mangled="ccos" location="f1:103" file="f1" line="103" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_429" location="f1:103" file="f1" line="103"/>
+  </Function>
+  <Variable id="_269" name="cpp_sym__LIBC_LIMITS_H_" type="_105c" init="1" context="_1" location="f0:37" file="f0" line="37"/>
+  <Typedef id="_270" name="intptr_t" type="_57" context="_1" location="f2:120" file="f2" line="120"/>
+  <Typedef id="_271" name="size_t" type="_8" context="_1" location="f4:211" file="f4" line="211"/>
+  <Variable id="_272" name="cpp_sym_USB_TYPE_CLASS" type="_105c" init="32" context="_1" location="f0:48" file="f0" line="48"/>
+  <Variable id="_273" name="cpp_sym__POSIX_RTSIG_MAX" type="_105c" init="8" context="_1" location="f0:27" file="f0" line="27"/>
+  <Variable id="_274" name="cpp_sym__POSIX_UIO_MAXIOV" type="_105c" init="16" context="_1" location="f0:19" file="f0" line="19"/>
+  <Variable id="_275" name="cpp_sym__ATFILE_SOURCE" type="_105c" init="1" context="_1" location="f0:2" file="f0" line="2"/>
+  <Function id="_276" name="__builtin_expect" returns="_57" context="_1" location="f1:16" file="f1" line="16" extern="1" attributes="nothrow const">
+    <Argument name="EXP" type="_57" location="f1:16" file="f1" line="16"/>
+    <Argument name="C" type="_57" location="f1:16" file="f1" line="16"/>
+  </Function>
+  <Variable id="_277" name="cpp_sym_ULONG_MAX" type="_8c" init="-1ul" context="_1" location="f0:136" file="f0" line="136"/>
+  <Variable id="_278" name="cpp_sym_USB_CLASS_AUDIO" type="_105c" init="1" context="_1" location="f0:21" file="f0" line="21"/>
+  <Variable id="_279" name="cpp_sym__POSIX_MAX_INPUT" type="_105c" init="255" context="_1" location="f0:115" file="f0" line="115"/>
+  <Variable id="_280" name="cpp_sym_USB_CLASS_VENDOR_SPEC" type="_105c" init="255" context="_1" location="f0:185" file="f0" line="185"/>
+  <Function id="_281" name="__builtin_popcountl" returns="_105" context="_1" location="f1:100" file="f1" line="100" extern="1" attributes="nothrow const">
+    <Argument type="_57" location="f1:100" file="f1" line="100"/>
+  </Function>
+  <Variable id="_282" name="cpp_sym_USB_MAXALTSETTING" type="_105c" init="128" context="_1" location="f0:4" file="f0" line="4"/>
+  <Variable id="_283" name="cpp_sym_TTY_NAME_MAX" type="_105c" init="32" context="_1" location="f0:158" file="f0" line="158"/>
+  <Typedef id="_284" name="uintmax_t" type="_8" context="_1" location="f2:136" file="f2" line="136"/>
+  <Variable id="_285" name="cpp_sym__POSIX_HOST_NAME_MAX" type="_105c" init="255" context="_1" location="f0:32" file="f0" line="32"/>
+  <Variable id="_286" name="cpp_sym__POSIX_SEM_NSEMS_MAX" type="_105c" init="256" context="_1" location="f0:139" file="f0" line="139"/>
+  <Variable id="_287" name="cpp_sym_INT_MIN" type="_105c" init="-0x00000000080000000" context="_1" location="f0:183" file="f0" line="183"/>
+  <Variable id="_288" name="cpp_sym_USB_DT_HUB_NONVAR_SIZE" type="_105c" init="7" context="_1" location="f0:85" file="f0" line="85"/>
+  <Variable id="_289" name="cpp_sym___USE_POSIX199309" type="_105c" init="1" context="_1" location="f0:62" file="f0" line="62"/>
+  <Variable id="_290" name="cpp_sym__BSD_SOURCE" type="_105c" init="1" context="_1" location="f0:188" file="f0" line="188"/>
+  <Variable id="_291" name="cpp_sym_NGROUPS_MAX" type="_105c" init="65536" context="_1" location="f0:72" file="f0" line="72"/>
+  <Variable id="_292" name="cpp_sym__POSIX_MQ_OPEN_MAX" type="_105c" init="8" context="_1" location="f0:177" file="f0" line="177"/>
+  <Typedef id="_293" name="int64_t" type="_57" context="_1" location="f2:41" file="f2" line="41"/>
+  <Variable id="_294" name="cpp_sym__POSIX_OPEN_MAX" type="_105c" init="20" context="_1" location="f0:64" file="f0" line="64"/>
+  <Typedef id="_295" name="int32_t" type="_105" context="_1" location="f2:39" file="f2" line="39"/>
+  <Struct id="_296" name="usb_bus" context="_1" mangled="7usb_bus" demangled="usb_bus" location="f3:256" file="f3" line="256" artificial="1" size="33152" align="64" members="_476 _477 _478 _479 _480 _481 " bases=""/>
+  <Variable id="_297" name="cpp_sym__POSIX_TTY_NAME_MAX" type="_105c" init="9" context="_1" location="f0:111" file="f0" line="111"/>
+  <Variable id="_298" name="cpp_sym_USB_CLASS_PTP" type="_105c" init="6" context="_1" location="f0:116" file="f0" line="116"/>
+  <Variable id="_299" name="cpp_sym_USB_DT_PHYSICAL" type="_105c" init="35" context="_1" location="f0:91" file="f0" line="91"/>
+  <Variable id="_300" name="cpp_sym__SVID_SOURCE" type="_105c" init="1" context="_1" location="f0:80" file="f0" line="80"/>
+  <Variable id="_301" name="cpp_sym_USB_ENDPOINT_OUT" type="_105c" init="0" context="_1" location="f0:181" file="f0" line="181"/>
+  <Variable id="_302" name="cpp_sym__POSIX2_LINE_MAX" type="_105c" init="2048" context="_1" location="f0:24" file="f0" line="24"/>
+  <Function id="_303" name="__builtin_inff" returns="_410" context="_1" location="f1:19" file="f1" line="19" extern="1" attributes="nothrow const"/>
+  <Function id="_304" name="__builtin_infl" returns="_411" context="_1" location="f1:20" file="f1" line="20" extern="1" attributes="nothrow const"/>
+  <FundamentalType id="_305" name="short unsigned int" size="16" align="16"/>
+  <Typedef id="_306" name="uint16_t" type="_305" context="_1" location="f2:50" file="f2" line="50"/>
+  <Variable id="_307" name="cpp_sym__POSIX_SYMLINK_MAX" type="_105c" init="255" context="_1" location="f0:153" file="f0" line="153"/>
+  <Typedef id="_308" name="intmax_t" type="_57" context="_1" location="f2:135" file="f2" line="135"/>
+  <Function id="_309" name="usb_set_altinterface" returns="_105" context="_1" location="f3:307" file="f3" line="307" extern="1">
+    <Argument name="dev" type="_414" location="f3:307" file="f3" line="307"/>
+    <Argument name="alternate" type="_105" location="f3:307" file="f3" line="307"/>
+  </Function>
+  <Function id="_310" name="__builtin_cos" returns="_408" context="_1" mangled="cos" location="f1:39" file="f1" line="39" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_408" location="f1:39" file="f1" line="39"/>
+  </Function>
+  <Variable id="_311" name="cpp_sym_USB_CLASS_PRINTER" type="_105c" init="7" context="_1" location="f0:110" file="f0" line="110"/>
+  <FundamentalType id="_312" name="unsigned char" size="8" align="8"/>
+  <Typedef id="_313" name="uint_fast8_t" type="_312" context="_1" location="f2:104" file="f2" line="104"/>
+  <Variable id="_314" name="cpp_sym_DELAYTIMER_MAX" type="_105c" init="2147483647" context="_1" location="f0:50" file="f0" line="50"/>
+  <Struct id="_315" name="usb_endpoint_descriptor" context="_1" mangled="23usb_endpoint_descriptor" demangled="usb_endpoint_descriptor" location="f3:89" file="f3" line="89" artificial="1" size="256" align="64" members="_482 _483 _484 _485 _486 _487 _488 _489 _490 _491 " bases=""/>
+  <Function id="_316" name="usb_find_devices" returns="_105" context="_1" location="f3:325" file="f3" line="325" extern="1"/>
+  <Variable id="_317" name="cpp_sym___USE_MISC" type="_105c" init="1" context="_1" location="f0:106" file="f0" line="106"/>
+  <Typedef id="_318" name="uint_least16_t" type="_305" context="_1" location="f2:78" file="f2" line="78"/>
+  <Variable id="_319" name="cpp_sym_USB_CLASS_MASS_STORAGE" type="_105c" init="8" context="_1" location="f0:83" file="f0" line="83"/>
+  <Function id="_320" name="usb_bulk_write" returns="_105" context="_1" location="f3:295" file="f3" line="295" extern="1">
+    <Argument name="dev" type="_414" location="f3:295" file="f3" line="295"/>
+    <Argument name="ep" type="_105" location="f3:295" file="f3" line="295"/>
+    <Argument name="bytes" type="_409" location="f3:295" file="f3" line="295"/>
+    <Argument name="size" type="_105" location="f3:295" file="f3" line="295"/>
+    <Argument name="timeout" type="_105" location="f3:295" file="f3" line="295"/>
+  </Function>
+  <Function id="_321" name="__builtin_ctz" returns="_105" context="_1" location="f1:96" file="f1" line="96" extern="1" attributes="nothrow const">
+    <Argument type="_105" location="f1:96" file="f1" line="96"/>
+  </Function>
+  <Function id="_322" name="__builtin_return_address" returns="_457" context="_1" location="f1:14" file="f1" line="14" extern="1">
+    <Argument name="LEVEL" type="_168" location="f1:14" file="f1" line="14"/>
+  </Function>
+  <Typedef id="_323" name="uint8_t" type="_312" context="_1" location="f2:49" file="f2" line="49"/>
+  <Function id="_324" name="__builtin_isnan" returns="_412" context="_1" mangled="isnan" location="f1:137" file="f1" line="137" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Variable id="_325" name="cpp_sym_ULLONG_MAX" type="_463c" init="-1ull" context="_1" location="f0:130" file="f0" line="130"/>
+  <Variable id="_326" name="cpp_sym_USB_DT_INTERFACE" type="_105c" init="4" context="_1" location="f0:9" file="f0" line="9"/>
+  <Variable id="_327" name="cpp_sym_WORD_BIT" type="_105c" init="32" context="_1" location="f0:76" file="f0" line="76"/>
+  <Variable id="_328" name="cpp_sym_UCHAR_MAX" type="_105c" init="255" context="_1" location="f0:61" file="f0" line="61"/>
+  <Variable id="_329" name="cpp_sym_LONG_LONG_MIN" type="_425c" init="-0x08000000000000000ll" context="_1" location="f0:192" file="f0" line="192"/>
+  <Function id="_330" name="__builtin_csinhf" returns="_426" context="_1" mangled="csinhf" location="f1:117" file="f1" line="117" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_426" location="f1:117" file="f1" line="117"/>
+  </Function>
+  <Function id="_331" name="__builtin_csinhl" returns="_427" context="_1" mangled="csinhl" location="f1:119" file="f1" line="119" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_427" location="f1:119" file="f1" line="119"/>
+  </Function>
+  <Variable id="_332" name="cpp_sym_CHARCLASS_NAME_MAX" type="_105c" init="2048" context="_1" location="f0:107" file="f0" line="107"/>
+  <Function id="_333" name="__builtin_csqrtf" returns="_426" context="_1" mangled="csqrtf" location="f1:120" file="f1" line="120" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_426" location="f1:120" file="f1" line="120"/>
+  </Function>
+  <Function id="_334" name="__builtin_csqrtl" returns="_427" context="_1" mangled="csqrtl" location="f1:122" file="f1" line="122" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_427" location="f1:122" file="f1" line="122"/>
+  </Function>
+  <Variable id="_335" name="cpp_sym__FEATURES_H" type="_105c" init="1" context="_1" location="f0:135" file="f0" line="135"/>
+  <Typedef id="_336" name="int_least64_t" type="_57" context="_1" location="f2:70" file="f2" line="70"/>
+  <Variable id="_337" name="cpp_sym__POSIX_MQ_PRIO_MAX" type="_105c" init="32" context="_1" location="f0:112" file="f0" line="112"/>
+  <Typedef id="_338" name="int8_t" type="_89" context="_1" location="f2:37" file="f2" line="37"/>
+  <Variable id="_339" name="cpp_sym_USB_ENDPOINT_TYPE_INTERRUPT" type="_105c" init="3" context="_1" location="f0:44" file="f0" line="44"/>
+  <Function id="_340" name="__builtin_floor" returns="_408" context="_1" mangled="floor" location="f1:51" file="f1" line="51" extern="1" attributes="nothrow const">
+    <Argument type="_408" location="f1:51" file="f1" line="51"/>
+  </Function>
+  <Function id="_341" name="__builtin_ldexp" returns="_408" context="_1" mangled="ldexp" location="f1:59" file="f1" line="59" extern="1" attributes="nothrow">
+    <Argument type="_408" location="f1:59" file="f1" line="59"/>
+    <Argument type="_105" location="f1:59" file="f1" line="59"/>
+  </Function>
+  <Function id="_342" name="usb_interrupt_write" returns="_105" context="_1" location="f3:299" file="f3" line="299" extern="1">
+    <Argument name="dev" type="_414" location="f3:299" file="f3" line="299"/>
+    <Argument name="ep" type="_105" location="f3:299" file="f3" line="299"/>
+    <Argument name="bytes" type="_409" location="f3:299" file="f3" line="299"/>
+    <Argument name="size" type="_105" location="f3:299" file="f3" line="299"/>
+    <Argument name="timeout" type="_105" location="f3:299" file="f3" line="299"/>
+  </Function>
+  <Variable id="_343" name="cpp_sym__BITS_WCHAR_H" type="_105c" init="1" context="_1" location="f0:65" file="f0" line="65"/>
+  <Variable id="_344" name="cpp_sym_USB_REQ_SET_DESCRIPTOR" type="_105c" init="7" context="_1" location="f0:137" file="f0" line="137"/>
+  <Variable id="_345" name="cpp_sym__XOPEN_SOURCE" type="_105c" init="700" context="_1" location="f0:164" file="f0" line="164"/>
+  <Variable id="_346" name="cpp_sym___WCHAR_MIN" type="_105c" init="-0x00000000080000000" context="_1" location="f0:67" file="f0" line="67"/>
+  <Variable id="_347" name="cpp_sym_NZERO" type="_105c" init="20" context="_1" location="f0:169" file="f0" line="169"/>
+  <Variable id="_348" name="cpp_sym___GLIBC_HAVE_LONG_LONG" type="_105c" init="1" context="_1" location="f0:39" file="f0" line="39"/>
+  <Variable id="_349" name="cpp_sym___WORDSIZE" type="_105c" init="64" context="_1" location="f0:23" file="f0" line="23"/>
+  <Function id="_350" name="__builtin_ccosf" returns="_426" context="_1" mangled="ccosf" location="f1:102" file="f1" line="102" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_426" location="f1:102" file="f1" line="102"/>
+  </Function>
+  <Function id="_351" name="__builtin_ccosh" returns="_429" context="_1" mangled="ccosh" location="f1:106" file="f1" line="106" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_429" location="f1:106" file="f1" line="106"/>
+  </Function>
+  <Function id="_352" name="__builtin_ccosl" returns="_427" context="_1" mangled="ccosl" location="f1:104" file="f1" line="104" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_427" location="f1:104" file="f1" line="104"/>
+  </Function>
+  <Variable id="_353" name="cpp_sym_USB_REQ_GET_DESCRIPTOR" type="_105c" init="6" context="_1" location="f0:46" file="f0" line="46"/>
+  <Function id="_354" name="__builtin_islessgreater" returns="_412" context="_1" location="f1:143" file="f1" line="143" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Variable id="_355" name="cpp_sym_USB_CLASS_DATA" type="_105c" init="10" context="_1" location="f0:141" file="f0" line="141"/>
+  <Variable id="_356" name="cpp_sym___USE_ANSI" type="_105c" init="1" context="_1" location="f0:105" file="f0" line="105"/>
+  <Function id="_357" name="usb_get_descriptor_by_endpoint" returns="_105" context="_1" location="f3:289" file="f3" line="289" extern="1">
+    <Argument name="udev" type="_414" location="f3:289" file="f3" line="289"/>
+    <Argument name="ep" type="_105" location="f3:289" file="f3" line="289"/>
+    <Argument name="type" type="_312" location="f3:289" file="f3" line="289"/>
+    <Argument name="index" type="_312" location="f3:289" file="f3" line="289"/>
+    <Argument name="buf" type="_457" location="f3:289" file="f3" line="289"/>
+    <Argument name="size" type="_105" location="f3:289" file="f3" line="289"/>
+  </Function>
+  <Function id="_358" name="__builtin_ctanhf" returns="_426" context="_1" mangled="ctanhf" location="f1:126" file="f1" line="126" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_426" location="f1:126" file="f1" line="126"/>
+  </Function>
+  <Function id="_359" name="__builtin_ctanhl" returns="_427" context="_1" mangled="ctanhl" location="f1:128" file="f1" line="128" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_427" location="f1:128" file="f1" line="128"/>
+  </Function>
+  <Variable id="_360" name="cpp_sym__BITS_POSIX1_LIM_H" type="_105c" init="1" context="_1" location="f0:84" file="f0" line="84"/>
+  <Variable id="_361" name="cpp_sym__POSIX_MAX_CANON" type="_105c" init="255" context="_1" location="f0:29" file="f0" line="29"/>
+  <Variable id="_362" name="cpp_sym__LARGEFILE64_SOURCE" type="_105c" init="1" context="_1" location="f0:161" file="f0" line="161"/>
+  <Variable id="_363" name="cpp_sym_USB_DT_DEVICE_SIZE" type="_105c" init="18" context="_1" location="f0:97" file="f0" line="97"/>
+  <Variable id="_364" name="cpp_sym_USB_REQ_SET_CONFIGURATION" type="_105c" init="9" context="_1" location="f0:16" file="f0" line="16"/>
+  <Function id="_365" name="usb_release_interface" returns="_105" context="_1" location="f3:306" file="f3" line="306" extern="1">
+    <Argument name="dev" type="_414" location="f3:306" file="f3" line="306"/>
+    <Argument name="interface" type="_105" location="f3:306" file="f3" line="306"/>
+  </Function>
+  <Variable id="_366" name="cpp_sym___USE_ATFILE" type="_105c" init="1" context="_1" location="f0:38" file="f0" line="38"/>
+  <Function id="_367" name="__builtin_ceilf" returns="_410" context="_1" mangled="ceilf" location="f1:37" file="f1" line="37" extern="1" attributes="nothrow const">
+    <Argument type="_410" location="f1:37" file="f1" line="37"/>
+  </Function>
+  <Function id="_368" name="__builtin_ceill" returns="_411" context="_1" mangled="ceill" location="f1:38" file="f1" line="38" extern="1" attributes="nothrow const">
+    <Argument type="_411" location="f1:38" file="f1" line="38"/>
+  </Function>
+  <Variable id="_369" name="cpp_sym__POSIX_PIPE_BUF" type="_105c" init="512" context="_1" location="f0:75" file="f0" line="75"/>
+  <Function id="_370" name="usb_reset" returns="_105" context="_1" location="f3:310" file="f3" line="310" extern="1">
+    <Argument name="dev" type="_414" location="f3:310" file="f3" line="310"/>
+  </Function>
+  <Function id="_371" name="__builtin_csinf" returns="_426" context="_1" mangled="csinf" location="f1:114" file="f1" line="114" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_426" location="f1:114" file="f1" line="114"/>
+  </Function>
+  <Function id="_372" name="__builtin_csinh" returns="_429" context="_1" mangled="csinh" location="f1:118" file="f1" line="118" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_429" location="f1:118" file="f1" line="118"/>
+  </Function>
+  <Function id="_373" name="__builtin_csinl" returns="_427" context="_1" mangled="csinl" location="f1:116" file="f1" line="116" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_427" location="f1:116" file="f1" line="116"/>
+  </Function>
+  <Function id="_374" name="__builtin_acos" returns="_408" context="_1" mangled="acos" location="f1:24" file="f1" line="24" extern="1" attributes="nothrow">
+    <Argument type="_408" location="f1:24" file="f1" line="24"/>
+  </Function>
+  <Variable id="_375" name="cpp_sym_USB_ENDPOINT_TYPE_CONTROL" type="_105c" init="0" context="_1" location="f0:150" file="f0" line="150"/>
+  <Function id="_376" name="__builtin_ctzll" returns="_105" context="_1" location="f1:98" file="f1" line="98" extern="1" attributes="nothrow const">
+    <Argument type="_425" location="f1:98" file="f1" line="98"/>
+  </Function>
+  <Typedef id="_377" name="uint_fast32_t" type="_8" context="_1" location="f2:107" file="f2" line="107"/>
+  <Function id="_378" name="__builtin_cargf" returns="_410" context="_1" mangled="cargf" location="f1:93" file="f1" line="93" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_426" location="f1:93" file="f1" line="93"/>
+  </Function>
+  <Function id="_379" name="__builtin_cargl" returns="_411" context="_1" mangled="cargl" location="f1:95" file="f1" line="95" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_427" location="f1:95" file="f1" line="95"/>
+  </Function>
+  <Struct id="_380" name="usb_hid_descriptor" context="_1" mangled="18usb_hid_descriptor" demangled="usb_hid_descriptor" location="f3:76" file="f3" line="76" artificial="1" attributes="packed" size="48" align="8" members="_493 _494 _495 _496 _497 " bases=""/>
+  <Function id="_381" name="__builtin_cosf" returns="_410" context="_1" mangled="cosf" location="f1:40" file="f1" line="40" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_410" location="f1:40" file="f1" line="40"/>
+  </Function>
+  <Function id="_382" name="__builtin_cosh" returns="_408" context="_1" mangled="cosh" location="f1:41" file="f1" line="41" extern="1" attributes="nothrow">
+    <Argument type="_408" location="f1:41" file="f1" line="41"/>
+  </Function>
+  <Variable id="_383" name="cpp_sym_PIPE_BUF" type="_105c" init="4096" context="_1" location="f0:143" file="f0" line="143"/>
+  <Function id="_384" name="__builtin_cosl" returns="_411" context="_1" mangled="cosl" location="f1:44" file="f1" line="44" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_411" location="f1:44" file="f1" line="44"/>
+  </Function>
+  <Variable id="_385" name="cpp_sym__POSIX_LINK_MAX" type="_105c" init="8" context="_1" location="f0:11" file="f0" line="11"/>
+  <Struct id="_386" name="usb_device_descriptor" context="_1" mangled="21usb_device_descriptor" demangled="usb_device_descriptor" location="f3:157" file="f3" line="157" artificial="1" attributes="packed" size="144" align="8" members="_498 _499 _500 _501 _502 _503 _504 _505 _506 _507 _508 _509 _510 _511 " bases=""/>
+  <Variable id="_387" name="cpp_sym___USE_FORTIFY_LEVEL" type="_105c" init="2" context="_1" location="f0:120" file="f0" line="120"/>
+  <Variable id="_388" name="cpp_sym__POSIX2_EXPR_NEST_MAX" type="_105c" init="32" context="_1" location="f0:149" file="f0" line="149"/>
+  <Function id="_389" name="__builtin_isgreater" returns="_412" context="_1" location="f1:139" file="f1" line="139" extern="1" attributes="nothrow const">
+    <Ellipsis/>
+  </Function>
+  <Variable id="_390" name="cpp_sym_SHRT_MIN" type="_105c" init="-0x00000000000008000" context="_1" location="f0:30" file="f0" line="30"/>
+  <Variable id="_391" name="cpp_sym_COLL_WEIGHTS_MAX" type="_105c" init="255" context="_1" location="f0:186" file="f0" line="186"/>
+  <Variable id="_392" name="cpp_sym_USB_TYPE_RESERVED" type="_105c" init="96" context="_1" location="f0:13" file="f0" line="13"/>
+  <Typedef id="_393" name="uint_least8_t" type="_312" context="_1" location="f2:77" file="f2" line="77"/>
+  <Variable id="_394" name="cpp_sym__POSIX_THREAD_THREADS_MAX" type="_105c" init="64" context="_1" location="f0:187" file="f0" line="187"/>
+  <Variable id="_395" name="cpp_sym_LOGIN_NAME_MAX" type="_105c" init="256" context="_1" location="f0:168" file="f0" line="168"/>
+  <Function id="_396" name="usb_get_string" returns="_105" context="_1" location="f3:283" file="f3" line="283" extern="1">
+    <Argument name="dev" type="_414" location="f3:283" file="f3" line="283"/>
+    <Argument name="index" type="_105" location="f3:283" file="f3" line="283"/>
+    <Argument name="langid" type="_105" location="f3:283" file="f3" line="283"/>
+    <Argument name="buf" type="_433" location="f3:283" file="f3" line="283"/>
+    <Argument name="buflen" type="_271" location="f3:283" file="f3" line="283"/>
+  </Function>
+  <Variable id="_397" name="cpp_sym_UINT_MAX" type="_168c" init="4294967295u" context="_1" location="f0:36" file="f0" line="36"/>
+  <Function id="_398" name="__builtin_sinf" returns="_410" context="_1" mangled="sinf" location="f1:76" file="f1" line="76" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_410" location="f1:76" file="f1" line="76"/>
+  </Function>
+  <Function id="_399" name="__builtin_sinh" returns="_408" context="_1" mangled="sinh" location="f1:77" file="f1" line="77" extern="1" attributes="nothrow">
+    <Argument type="_408" location="f1:77" file="f1" line="77"/>
+  </Function>
+  <Function id="_400" name="__builtin_sinl" returns="_411" context="_1" mangled="sinl" location="f1:80" file="f1" line="80" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_411" location="f1:80" file="f1" line="80"/>
+  </Function>
+  <Typedef id="_401" name="uint64_t" type="_8" context="_1" location="f2:56" file="f2" line="56"/>
+  <Function id="_402" name="__builtin_csin" returns="_429" context="_1" mangled="csin" location="f1:115" file="f1" line="115" extern="1" attributes="nothrow pure no vops">
+    <Argument type="_429" location="f1:115" file="f1" line="115"/>
+  </Function>
+  <Variable id="_403" name="cpp_sym_LLONG_MIN" type="_425c" init="-0x08000000000000000ll" context="_1" location="f0:180" file="f0" line="180"/>
+  <Variable id="_404" name="cpp_sym_USB_RECIP_OTHER" type="_105c" init="3" context="_1" location="f0:41" file="f0" line="41"/>
+  <Variable id="_405" name="cpp_sym__POSIX_SOURCE" type="_105c" init="1" context="_1" location="f0:35" file="f0" line="35"/>
+  <Variable id="_406" name="cpp_sym__POSIX_NAME_MAX" type="_105c" init="14" context="_1" location="f0:189" file="f0" line="189"/>
+  <CvQualifiedType id="_105c" type="_105" const="1"/>
+  <FundamentalType id="_408" name="double" size="64" align="64"/>
+  <PointerType id="_409" type="_513c" size="64" align="64"/>
+  <FundamentalType id="_410" name="float" size="32" align="32"/>
+  <FundamentalType id="_411" name="long double" size="128" align="128"/>
+  <FundamentalType id="_412" name="bool" size="8" align="8"/>
+  <PointerType id="_413" type="_13" size="64" align="64"/>
+  <PointerType id="_414" type="_234" size="64" align="64"/>
+  <Field id="_415" name="next" type="_413" offset="0" context="_13" access="public" location="f3:239" file="f3" line="239"/>
+  <Field id="_416" name="prev" type="_413" offset="64" context="_13" access="public" location="f3:239" file="f3" line="239"/>
+  <Field id="_417" name="filename" type="_515" offset="128" context="_13" access="public" location="f3:241" file="f3" line="241"/>
+  <Field id="_418" name="bus" type="_460" offset="32960" context="_13" access="public" location="f3:243" file="f3" line="243"/>
+  <Field id="_419" name="descriptor" type="_386" offset="33024" context="_13" access="public" location="f3:245" file="f3" line="245"/>
+  <Field id="_420" name="config" type="_516" offset="33216" context="_13" access="public" location="f3:246" file="f3" line="246"/>
+  <Field id="_421" name="dev" type="_457" offset="33280" context="_13" access="public" location="f3:248" file="f3" line="248"/>
+  <Field id="_422" name="devnum" type="_323" offset="33344" context="_13" access="public" location="f3:250" file="f3" line="250"/>
+  <Field id="_423" name="num_children" type="_312" offset="33352" context="_13" access="public" location="f3:252" file="f3" line="252"/>
+  <Field id="_424" name="children" type="_517" offset="33408" context="_13" access="public" location="f3:253" file="f3" line="253"/>
+  <FundamentalType id="_425" name="long long int" size="64" align="64"/>
+  <FundamentalType id="_426" name="complex float" size="64" align="32"/>
+  <FundamentalType id="_427" name="complex long double" size="256" align="128"/>
+  <CvQualifiedType id="_57c" type="_57" const="1"/>
+  <FundamentalType id="_429" name="complex double" size="128" align="64"/>
+  <Field id="_430" name="bLength" type="_323" offset="0" context="_49" access="public" location="f3:64" file="f3" line="64"/>
+  <Field id="_431" name="bDescriptorType" type="_323" offset="8" context="_49" access="public" location="f3:65" file="f3" line="65"/>
+  <FundamentalType id="_432" name="void" align="8"/>
+  <PointerType id="_433" type="_513" size="64" align="64"/>
+  <Field id="_434" name="bLength" type="_323" offset="0" context="_78" access="public" location="f3:141" file="f3" line="141"/>
+  <Field id="_435" name="bDescriptorType" type="_323" offset="8" context="_78" access="public" location="f3:142" file="f3" line="142"/>
+  <Field id="_436" name="wTotalLength" type="_306" offset="16" context="_78" access="public" location="f3:143" file="f3" line="143"/>
+  <Field id="_437" name="bNumInterfaces" type="_323" offset="32" context="_78" access="public" location="f3:144" file="f3" line="144"/>
+  <Field id="_438" name="bConfigurationValue" type="_323" offset="40" context="_78" access="public" location="f3:145" file="f3" line="145"/>
+  <Field id="_439" name="iConfiguration" type="_323" offset="48" context="_78" access="public" location="f3:146" file="f3" line="146"/>
+  <Field id="_440" name="bmAttributes" type="_323" offset="56" context="_78" access="public" location="f3:147" file="f3" line="147"/>
+  <Field id="_441" name="MaxPower" type="_323" offset="64" context="_78" access="public" location="f3:148" file="f3" line="148"/>
+  <Field id="_442" name="interface" type="_518" offset="128" context="_78" access="public" location="f3:150" file="f3" line="150"/>
+  <Field id="_443" name="extra" type="_519" offset="192" context="_78" access="public" location="f3:152" file="f3" line="152"/>
+  <Field id="_444" name="extralen" type="_105" offset="256" context="_78" access="public" location="f3:153" file="f3" line="153"/>
+  <Field id="_445" name="bLength" type="_323" offset="0" context="_79" access="public" location="f3:115" file="f3" line="115"/>
+  <Field id="_446" name="bDescriptorType" type="_323" offset="8" context="_79" access="public" location="f3:116" file="f3" line="116"/>
+  <Field id="_447" name="bInterfaceNumber" type="_323" offset="16" context="_79" access="public" location="f3:117" file="f3" line="117"/>
+  <Field id="_448" name="bAlternateSetting" type="_323" offset="24" context="_79" access="public" location="f3:118" file="f3" line="118"/>
+  <Field id="_449" name="bNumEndpoints" type="_323" offset="32" context="_79" access="public" location="f3:119" file="f3" line="119"/>
+  <Field id="_450" name="bInterfaceClass" type="_323" offset="40" context="_79" access="public" location="f3:120" file="f3" line="120"/>
+  <Field id="_451" name="bInterfaceSubClass" type="_323" offset="48" context="_79" access="public" location="f3:121" file="f3" line="121"/>
+  <Field id="_452" name="bInterfaceProtocol" type="_323" offset="56" context="_79" access="public" location="f3:122" file="f3" line="122"/>
+  <Field id="_453" name="iInterface" type="_323" offset="64" context="_79" access="public" location="f3:123" file="f3" line="123"/>
+  <Field id="_454" name="endpoint" type="_520" offset="128" context="_79" access="public" location="f3:125" file="f3" line="125"/>
+  <Field id="_455" name="extra" type="_519" offset="192" context="_79" access="public" location="f3:127" file="f3" line="127"/>
+  <Field id="_456" name="extralen" type="_105" offset="256" context="_79" access="public" location="f3:128" file="f3" line="128"/>
+  <PointerType id="_457" type="_432" size="64" align="64"/>
+  <PointerType id="_458" type="_432c" size="64" align="64"/>
+  <PointerType id="_459" type="_105" size="64" align="64"/>
+  <PointerType id="_460" type="_296" size="64" align="64"/>
+  <PointerType id="_461" type="_410" size="64" align="64"/>
+  <PointerType id="_462" type="_411" size="64" align="64"/>
+  <FundamentalType id="_463" name="long long unsigned int" size="64" align="64"/>
+  <CvQualifiedType id="_463c" type="_463" const="1"/>
+  <Field id="_465" name="bRequestType" type="_323" offset="0" context="_238" access="public" location="f3:175" file="f3" line="175"/>
+  <Field id="_466" name="bRequest" type="_323" offset="8" context="_238" access="public" location="f3:176" file="f3" line="176"/>
+  <Field id="_467" name="wValue" type="_306" offset="16" context="_238" access="public" location="f3:177" file="f3" line="177"/>
+  <Field id="_468" name="wIndex" type="_306" offset="32" context="_238" access="public" location="f3:178" file="f3" line="178"/>
+  <Field id="_469" name="wLength" type="_306" offset="48" context="_238" access="public" location="f3:179" file="f3" line="179"/>
+  <Field id="_470" name="altsetting" type="_522" offset="0" context="_255" access="public" location="f3:133" file="f3" line="133"/>
+  <Field id="_471" name="num_altsetting" type="_105" offset="64" context="_255" access="public" location="f3:135" file="f3" line="135"/>
+  <Field id="_472" name="bLength" type="_323" offset="0" context="_262" access="public" location="f3:70" file="f3" line="70"/>
+  <Field id="_473" name="bDescriptorType" type="_323" offset="8" context="_262" access="public" location="f3:71" file="f3" line="71"/>
+  <Field id="_474" name="wData" type="_523" offset="16" context="_262" access="public" location="f3:72" file="f3" line="72"/>
+  <CvQualifiedType id="_8c" type="_8" const="1"/>
+  <Field id="_476" name="next" type="_460" offset="0" context="_296" access="public" location="f3:257" file="f3" line="257"/>
+  <Field id="_477" name="prev" type="_460" offset="64" context="_296" access="public" location="f3:257" file="f3" line="257"/>
+  <Field id="_478" name="dirname" type="_515" offset="128" context="_296" access="public" location="f3:259" file="f3" line="259"/>
+  <Field id="_479" name="devices" type="_413" offset="32960" context="_296" access="public" location="f3:261" file="f3" line="261"/>
+  <Field id="_480" name="location" type="_169" offset="33024" context="_296" access="public" location="f3:262" file="f3" line="262"/>
+  <Field id="_481" name="root_dev" type="_413" offset="33088" context="_296" access="public" location="f3:264" file="f3" line="264"/>
+  <Field id="_482" name="bLength" type="_323" offset="0" context="_315" access="public" location="f3:90" file="f3" line="90"/>
+  <Field id="_483" name="bDescriptorType" type="_323" offset="8" context="_315" access="public" location="f3:91" file="f3" line="91"/>
+  <Field id="_484" name="bEndpointAddress" type="_323" offset="16" context="_315" access="public" location="f3:92" file="f3" line="92"/>
+  <Field id="_485" name="bmAttributes" type="_323" offset="24" context="_315" access="public" location="f3:93" file="f3" line="93"/>
+  <Field id="_486" name="wMaxPacketSize" type="_306" offset="32" context="_315" access="public" location="f3:94" file="f3" line="94"/>
+  <Field id="_487" name="bInterval" type="_323" offset="48" context="_315" access="public" location="f3:95" file="f3" line="95"/>
+  <Field id="_488" name="bRefresh" type="_323" offset="56" context="_315" access="public" location="f3:96" file="f3" line="96"/>
+  <Field id="_489" name="bSynchAddress" type="_323" offset="64" context="_315" access="public" location="f3:97" file="f3" line="97"/>
+  <Field id="_490" name="extra" type="_519" offset="128" context="_315" access="public" location="f3:99" file="f3" line="99"/>
+  <Field id="_491" name="extralen" type="_105" offset="192" context="_315" access="public" location="f3:100" file="f3" line="100"/>
+  <CvQualifiedType id="_425c" type="_425" const="1"/>
+  <Field id="_493" name="bLength" type="_323" offset="0" context="_380" access="public" location="f3:77" file="f3" line="77"/>
+  <Field id="_494" name="bDescriptorType" type="_323" offset="8" context="_380" access="public" location="f3:78" file="f3" line="78"/>
+  <Field id="_495" name="bcdHID" type="_306" offset="16" context="_380" access="public" location="f3:79" file="f3" line="79"/>
+  <Field id="_496" name="bCountryCode" type="_323" offset="32" context="_380" access="public" location="f3:80" file="f3" line="80"/>
+  <Field id="_497" name="bNumDescriptors" type="_323" offset="40" context="_380" access="public" location="f3:81" file="f3" line="81"/>
+  <Field id="_498" name="bLength" type="_323" offset="0" context="_386" access="public" location="f3:158" file="f3" line="158"/>
+  <Field id="_499" name="bDescriptorType" type="_323" offset="8" context="_386" access="public" location="f3:159" file="f3" line="159"/>
+  <Field id="_500" name="bcdUSB" type="_306" offset="16" context="_386" access="public" location="f3:160" file="f3" line="160"/>
+  <Field id="_501" name="bDeviceClass" type="_323" offset="32" context="_386" access="public" location="f3:161" file="f3" line="161"/>
+  <Field id="_502" name="bDeviceSubClass" type="_323" offset="40" context="_386" access="public" location="f3:162" file="f3" line="162"/>
+  <Field id="_503" name="bDeviceProtocol" type="_323" offset="48" context="_386" access="public" location="f3:163" file="f3" line="163"/>
+  <Field id="_504" name="bMaxPacketSize0" type="_323" offset="56" context="_386" access="public" location="f3:164" file="f3" line="164"/>
+  <Field id="_505" name="idVendor" type="_306" offset="64" context="_386" access="public" location="f3:165" file="f3" line="165"/>
+  <Field id="_506" name="idProduct" type="_306" offset="80" context="_386" access="public" location="f3:166" file="f3" line="166"/>
+  <Field id="_507" name="bcdDevice" type="_306" offset="96" context="_386" access="public" location="f3:167" file="f3" line="167"/>
+  <Field id="_508" name="iManufacturer" type="_323" offset="112" context="_386" access="public" location="f3:168" file="f3" line="168"/>
+  <Field id="_509" name="iProduct" type="_323" offset="120" context="_386" access="public" location="f3:169" file="f3" line="169"/>
+  <Field id="_510" name="iSerialNumber" type="_323" offset="128" context="_386" access="public" location="f3:170" file="f3" line="170"/>
+  <Field id="_511" name="bNumConfigurations" type="_323" offset="136" context="_386" access="public" location="f3:171" file="f3" line="171"/>
+  <CvQualifiedType id="_168c" type="_168" const="1"/>
+  <ArrayType id="_515" min="0" max="4096u" type="_513" size="32776" align="8"/>
+  <PointerType id="_516" type="_78" size="64" align="64"/>
+  <PointerType id="_517" type="_413" size="64" align="64"/>
+  <PointerType id="_518" type="_255" size="64" align="64"/>
+  <PointerType id="_519" type="_312" size="64" align="64"/>
+  <PointerType id="_520" type="_315" size="64" align="64"/>
+  <PointerType id="_522" type="_79" size="64" align="64"/>
+  <ArrayType id="_523" min="0" max="0u" type="_306" size="16" align="16"/>
+  <FundamentalType id="_513" name="char" size="8" align="8"/>
+  <CvQualifiedType id="_513c" type="_513" const="1"/>
+  <CvQualifiedType id="_432c" type="_432" const="1"/>
+  <File id="f0" name="/tmp/tmpkKqsYx.cpp"/>
+  <File id="f1" name="/usr/share/gccxml-0.9/GCC/4.3/gccxml_builtins.h"/>
+  <File id="f2" name="/usr/include/stdint.h"/>
+  <File id="f3" name="./usb.h"/>
+  <File id="f4" name="/usr/lib/gcc/x86_64-linux-gnu/4.4.1/include/stddef.h"/>
+  <CPP_DUMP name="functions"><![CDATA[__ASMNAME(cname) __ASMNAME2 (__USER_LABEL_PREFIX__, cname)
+__ASMNAME2(prefix,cname) __STRING (prefix) cname
+__CONCAT(x,y) x ## y
+__GLIBC_PREREQ(maj,min) ((__GLIBC__ << 16) + __GLIBC_MINOR__ >= ((maj) << 16) + (min))
+__GNUC_PREREQ(maj,min) ((__GNUC__ << 16) + __GNUC_MINOR__ >= ((maj) << 16) + (min))
+__LDBL_REDIR(name,proto) name proto
+__LDBL_REDIR1(name,proto,alias) name proto
+__LDBL_REDIR1_NTH(name,proto,alias) name proto __THROW
+__LDBL_REDIR_NTH(name,proto) name proto __THROW
+__NTH(fct) fct throw ()
+__P(args) args
+__PMT(args) args
+__REDIRECT(name,proto,alias) name proto __asm__ (__ASMNAME (#alias))
+__REDIRECT_LDBL(name,proto,alias) __REDIRECT (name, proto, alias)
+__REDIRECT_NTH(name,proto,alias) name proto __THROW __asm__ (__ASMNAME (#alias))
+__REDIRECT_NTH_LDBL(name,proto,alias) __REDIRECT_NTH (name, proto, alias)
+__STRING(x) #x
+__attribute_format_arg__(x) __attribute__ ((__format_arg__ (x)))
+__attribute_format_strfmon__(a,b) __attribute__ ((__format__ (__strfmon__, a, b)))
+__bos(ptr) __builtin_object_size (ptr, __USE_FORTIFY_LEVEL > 1)
+__bos0(ptr) __builtin_object_size (ptr, 0)
+__errordecl(name,msg) extern void name (void) __attribute__((__error__ (msg)))
+__nonnull(params) __attribute__ ((__nonnull__ params))
+__va_arg_pack() __builtin_va_arg_pack ()
+__va_arg_pack_len() __builtin_va_arg_pack_len ()
+__warnattr(msg) __attribute__((__warning__ (msg)))
+__warndecl(name,msg) extern void name (void) __attribute__((__warning__ (msg)))
+offsetof(TYPE,MEMBER) __builtin_offsetof (TYPE, MEMBER)
+]]></CPP_DUMP>
+  <CPP_DUMP name="aliases"><![CDATA[BC_BASE_MAX _POSIX2_BC_BASE_MAX
+BC_DIM_MAX _POSIX2_BC_DIM_MAX
+BC_SCALE_MAX _POSIX2_BC_SCALE_MAX
+BC_STRING_MAX _POSIX2_BC_STRING_MAX
+CHAR_BIT __CHAR_BIT__
+CHAR_MAX SCHAR_MAX
+CHAR_MIN SCHAR_MIN
+EXPR_NEST_MAX _POSIX2_EXPR_NEST_MAX
+INT_MAX __INT_MAX__
+LINE_MAX _POSIX2_LINE_MAX
+LLONG_MAX __LONG_LONG_MAX__
+LONG_LONG_MAX __LONG_LONG_MAX__
+LONG_MAX __LONG_MAX__
+NL_ARGMAX _POSIX_ARG_MAX
+NL_LANGMAX _POSIX2_LINE_MAX
+NL_MSGMAX INT_MAX
+NL_NMAX INT_MAX
+NL_SETMAX INT_MAX
+NL_TEXTMAX INT_MAX
+NULL __null
+PTHREAD_DESTRUCTOR_ITERATIONS _POSIX_THREAD_DESTRUCTOR_ITERATIONS
+SCHAR_MAX __SCHAR_MAX__
+SHRT_MAX __SHRT_MAX__
+SSIZE_MAX LONG_MAX
+_POSIX_FD_SETSIZE _POSIX_OPEN_MAX
+_POSIX_HIWAT _POSIX_PIPE_BUF
+_XOPEN_IOV_MAX _POSIX_UIO_MAXIOV
+__WCHAR_MAX __WCHAR_MAX__
+__wur __attribute_warn_unused_result__
+]]></CPP_DUMP>
+  <CPP_DUMP name="excluded"><![CDATA[__BEGIN_DECLS extern "C" {
+__END_DECLS }
+]]></CPP_DUMP>
+</GCC_XML>
