@@ -1,0 +1,4 @@
+Dependencies:
+tornado http://github.com/facebook/tornado
+usb hub with per port power switching
+hudson-ish rss feed
