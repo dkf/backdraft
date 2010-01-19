@@ -36,6 +36,7 @@ def main():
     initialize()
     devs = filter(controllable, devices())
     print "Found %s controllable hubs" % len(devs)
+    # {url: (hub #, port #), ...}
     urls = {"http://chb1.kcprod.info:8080/hudson/job/kc-backend-chb2/rssAll": (0, 2),
             "http://chb1.kcprod.info:8080/hudson/job/Selenium%20Tests/rssAll": (0, 1)}
     if len(devs) > 0 or len(urls) > 0:
