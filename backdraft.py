@@ -4,6 +4,7 @@ import ctypes
 import tornado.ioloop
 import functools
 import time
+import sys
 from xml.dom.minidom import parseString
 from tornado.httpclient import AsyncHTTPClient
 from USB import *
@@ -53,11 +54,12 @@ class AsyncMonitor:
         self.io_loop = tornado.ioloop.IOLoop.instance()
         self.io_loop.start()
     def url_failed(self, url):
-        print "Build failed: %s" % url
         (hub, port) = self.urls[url]
+        print "Build failed: %s enabling hub %s, port %s" % (url, hub, port)
         self.devices[hub].power_on(port)
     def url_succeeded(self, url):
-        print "Build succeeded: %s " % url
+        print ".",
+        sys.stdout.flush()
         (hub, port) = self.urls[url]
         self.devices[hub].power_off(port)
     def handle_response(self, res):
