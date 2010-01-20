@@ -9,6 +9,21 @@ from xml.dom.minidom import parseString
 from tornado.httpclient import AsyncHTTPClient
 from USB import *
 
+class BuildMonitor:
+    def __init__(self, url, device, port):
+        self.url = url
+        self.device = device
+        self.port = port
+        self.power = None
+    def power_on(self):
+        if self.power is None or self.power is False:
+            self.device.power_on(self.port)
+            self.power = True
+    def power_off(self):
+        if self.power is None or self.power is True:
+            self.device.power_off(self.port)
+            self.power = False
+            
 def initialize():
     usb_init()
     usb_find_busses()
@@ -43,26 +58,26 @@ def main():
         monitor = AsyncMonitor(devs, urls)
         monitor.start()
 
-
 class AsyncMonitor:
     def __init__(self, devs, urls):
-        self.devices = devs
-        self.urls = urls
+        self.monitors = {}
         self.http_client = AsyncHTTPClient()
+        for url in urls.iterkeys():
+            (hub, port) = urls[url]
+            self.monitors[url] = BuildMonitor(url, devs[hub], port)
+
     def start(self):
-        for (key, val) in self.urls.items():
+        for (key, val) in self.monitors.items():
             self.http_client.fetch(key, self.handle_response)
         self.io_loop = tornado.ioloop.IOLoop.instance()
         self.io_loop.start()
     def url_failed(self, url):
-        (hub, port) = self.urls[url]
         print "Build failed: %s enabling hub %s, port %s" % (url, hub, port)
-        self.devices[hub].power_on(port)
+        self.monitors[url].power_on()
     def url_succeeded(self, url):
+        self.monitors[url].power_off()
         print ".",
         sys.stdout.flush()
-        (hub, port) = self.urls[url]
-        self.devices[hub].power_off(port)
     def handle_response(self, res):
         if res.error:
             print "Error: ", res.error
