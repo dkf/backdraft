@@ -17,10 +17,12 @@ class BuildMonitor:
         self.power = None
     def power_on(self):
         if self.power is None or self.power is False:
+            print "power on"
             self.device.power_on(self.port)
             self.power = True
     def power_off(self):
         if self.power is None or self.power is True:
+            print "power off"
             self.device.power_off(self.port)
             self.power = False
             
@@ -72,7 +74,7 @@ class AsyncMonitor:
         self.io_loop = tornado.ioloop.IOLoop.instance()
         self.io_loop.start()
     def url_failed(self, url):
-        print "Build failed: %s enabling hub %s, port %s" % (url, hub, port)
+        print "Build failed: %s enabling hub" % (url)
         self.monitors[url].power_on()
     def url_succeeded(self, url):
         self.monitors[url].power_off()
@@ -82,14 +84,20 @@ class AsyncMonitor:
         if res.error:
             print "Error: ", res.error
         else:
-            self.examine(res.body, res.request.url)
+            try:
+                self.examine(res.body, res.request.url)
+            except:
+                print "unknown error in examine"
         self.io_loop.add_timeout(time.time() + 5, functools.partial(self.schedule, res.request.url))
     def schedule(self, url):
         self.http_client.fetch(url, self.handle_response)
     def examine(self, body, url):
         dom = parseString(body)
-        if self.getText(dom.getElementsByTagName("title")[1].childNodes).find("SUCCESS") == -1:
+        text = self.getText(dom.getElementsByTagName("title")[1].childNodes)
+        if text.find("SUCCESS") == -1 and text.find("ABORT") == -1:
             self.url_failed(url)
+        elif text.find("ABORT") != -1:
+            pass
         else:
             self.url_succeeded(url)
         dom.unlink()
