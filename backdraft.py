@@ -54,7 +54,7 @@ def main():
     devs = filter(controllable, devices())
     print "Found %s controllable hubs" % len(devs)
     # {url: (hub #, port #), ...}
-    urls = {"http://chb1.kcprod.info:8080/hudson/job/kc-backend-chb2/rssAll": (0, 2),
+    urls = {"http://chb1.kcprod.info:8080/hudson/job/kc-backend-parallel/rssAll": (0, 2),
             "http://chb1.kcprod.info:8080/hudson/job/Selenium%20Tests/rssAll": (0, 1)}
     if len(devs) > 0 or len(urls) > 0:
         monitor = AsyncMonitor(devs, urls)
@@ -70,7 +70,7 @@ class AsyncMonitor:
 
     def start(self):
         for (key, val) in self.monitors.items():
-            self.http_client.fetch(key, self.handle_response)
+            self.http_client.fetch(key, self.handle_response, auth_username = "backdraft", auth_password = "firessuck")
         self.io_loop = tornado.ioloop.IOLoop.instance()
         self.io_loop.start()
     def url_failed(self, url):
@@ -90,7 +90,7 @@ class AsyncMonitor:
                 print "unknown error in examine"
         self.io_loop.add_timeout(time.time() + 5, functools.partial(self.schedule, res.request.url))
     def schedule(self, url):
-        self.http_client.fetch(url, self.handle_response)
+        self.http_client.fetch(url, self.handle_response, auth_username = "backdraft", auth_password = "firessuck")
     def examine(self, body, url):
         dom = parseString(body)
         text = self.getText(dom.getElementsByTagName("title")[1].childNodes)
