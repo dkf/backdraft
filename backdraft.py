@@ -54,8 +54,8 @@ def main():
     devs = filter(controllable, devices())
     print "Found %s controllable hubs" % len(devs)
     # {url: (hub #, port #), ...}
-    urls = {"http://chb1.kcprod.info:8080/hudson/job/kc-backend-parallel/rssAll": (0, 2),
-            "http://chb1.kcprod.info:8080/hudson/job/Selenium%20Tests/rssAll": (0, 1)}
+    urls = {"http://cha33:8080/hudson/job/kc-backend-parallel/rssAll": (0, 2),
+            "http://cha33:8080/hudson/job/Selenium%20Tests/rssAll": (0, 1)}
     if len(devs) > 0 or len(urls) > 0:
         monitor = AsyncMonitor(devs, urls)
         monitor.start()
@@ -88,7 +88,7 @@ class AsyncMonitor:
                 self.examine(res.body, res.request.url)
             except:
                 print "unknown error in examine"
-        self.io_loop.add_timeout(time.time() + 5, functools.partial(self.schedule, res.request.url))
+        self.io_loop.add_timeout(time.time() + 10, functools.partial(self.schedule, res.request.url))
     def schedule(self, url):
         self.http_client.fetch(url, self.handle_response, auth_username = "backdraft", auth_password = "firessuck")
     def examine(self, body, url):
